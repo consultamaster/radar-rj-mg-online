@@ -1,0 +1,50 @@
+name: Consulta diária de distribuições (TJMG)
+
+on:
+  schedule:
+    # 11:00 UTC = 08:00 no horário de Brasília (UTC-3)
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+    inputs:
+      de:
+        description: 'Data inicial (AAAA-MM-DD) — deixe em branco para rodar D-1 normal'
+        required: false
+      ate:
+        description: 'Data final (AAAA-MM-DD) — obrigatório se preencher "de"'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  consultar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Calcular a data de ontem (D-1)
+        id: data
+        run: echo "ontem=$(date -u -d 'yesterday' +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+
+      - name: Rodar a consulta (dia único ou intervalo)
+        run: |
+          if [ -n "${{ inputs.de }}" ] && [ -n "${{ inputs.ate }}" ]; then
+            node consultar.js --de "${{ inputs.de }}" --ate "${{ inputs.ate }}"
+          else
+            node consultar.js --data "${{ steps.data.outputs.ontem }}"
+          fi
+
+      - name: Publicar os dados atualizados
+        if: always()
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add docs/data visto.json
+          git diff --staged --quiet || git commit -m "Atualiza distribuições — execução em $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

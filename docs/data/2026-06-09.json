@@ -1,0 +1,50 @@
+[
+  {
+    "numeroProcesso": "11019069620268130024",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-06-09T18:47:25",
+    "orgaoJulgador": "2ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Recuperação judicial e Falência",
+      "Concurso de Credores",
+      "Classificação de créditos"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "11018670220268130024",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-06-09T18:05:25",
+    "orgaoJulgador": "2ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "11017978220268130024",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-06-09T17:12:57",
+    "orgaoJulgador": "2ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "11015240620268130024",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-06-09T14:44:20",
+    "orgaoJulgador": "1ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Classificação de créditos",
+      "Concurso de Credores",
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]
