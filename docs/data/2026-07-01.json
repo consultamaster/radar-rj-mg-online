@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10048816120268130290",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-01T12:22:29",
+    "orgaoJulgador": "2ª Vara Cível da Comarca de Vespasiano",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]

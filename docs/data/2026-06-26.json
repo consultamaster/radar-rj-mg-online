@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10032132920268130040",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-06-26T18:07:57",
+    "orgaoJulgador": "1ª Vara Cível da Comarca de Araxá",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]

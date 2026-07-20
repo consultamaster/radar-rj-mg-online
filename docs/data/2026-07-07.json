@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10005765020268130220",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-07-07T16:51:13",
+    "orgaoJulgador": "Vara Única da Comarca de Divino",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]
