@@ -1,0 +1,26 @@
+[
+  {
+    "numeroProcesso": "10001594620268130528",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-05-08T13:54:43",
+    "orgaoJulgador": "Vara Única da Comarca de Prata",
+    "assuntos": [
+      "Recuperação judicial e Falência",
+      "Tutela de Urgência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10796454020268130024",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-05-08T01:29:51",
+    "orgaoJulgador": "2ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Recuperação judicial e Falência",
+      "Tutela de Urgência"
+    ],
+    "novo": true
+  }
+]
