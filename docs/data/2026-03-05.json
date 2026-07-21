@@ -1,0 +1,24 @@
+[
+  {
+    "numeroProcesso": "10358828620268130024",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-05T13:35:58",
+    "orgaoJulgador": "2ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10071278120268130079",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-03-05T11:31:46",
+    "orgaoJulgador": "2ª Vara Empresarial, de Fazenda Pública e Registros Públicos da Comarca de Contagem",
+    "assuntos": [
+      "Administração judicial"
+    ],
+    "novo": true
+  }
+]
