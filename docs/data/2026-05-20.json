@@ -1,0 +1,24 @@
+[
+  {
+    "numeroProcesso": "10074756020268130480",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-05-20T09:07:33",
+    "orgaoJulgador": "3ª Vara Cível da Comarca de Patos de Minas",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "50031285020268130694",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-05-20T01:26:26",
+    "orgaoJulgador": "1ª Vara Cível da Comarca de Três Pontas",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": true
+  }
+]

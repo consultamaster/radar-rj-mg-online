@@ -1,0 +1,26 @@
+[
+  {
+    "numeroProcesso": "10914655620268130024",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-05-25T17:01:44",
+    "orgaoJulgador": "1ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Classificação de créditos",
+      "Concurso de Credores",
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10002038420268130069",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-05-25T09:43:26",
+    "orgaoJulgador": "Vara Única da Comarca de Bicas",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]
