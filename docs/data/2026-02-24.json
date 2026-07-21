@@ -1,0 +1,36 @@
+[
+  {
+    "numeroProcesso": "50005734820268130116",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-02-24T17:11:41",
+    "orgaoJulgador": "1ª Vara Cível, Criminal e de Execuções Penais da Comarca de Campos Gerais",
+    "assuntos": [
+      "Administração judicial",
+      "Classificação de créditos"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "50004722120268130242",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-02-24T16:47:04",
+    "orgaoJulgador": "Vara Única da Comarca de Espera Feliz",
+    "assuntos": [
+      "Administração judicial"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10287957920268130024",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-02-24T10:28:47",
+    "orgaoJulgador": "1ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]
