@@ -1,0 +1,25 @@
+[
+  {
+    "numeroProcesso": "10002487020268130172",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-02-12T20:08:47",
+    "orgaoJulgador": "2ª Vara Cível, Criminal e de Execuções Penais da Comarca de Conceição das Alagoas",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "50004071620268130407",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-02-12T13:17:16",
+    "orgaoJulgador": "2ª Vara Cível, Criminal e de Execuções Penais da Comarca de Mateus Leme",
+    "assuntos": [
+      "Administração judicial",
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]
