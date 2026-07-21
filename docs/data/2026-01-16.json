@@ -1,0 +1,27 @@
+[
+  {
+    "numeroProcesso": "10068001020268130024",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-01-16T16:18:25",
+    "orgaoJulgador": "1ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Cessão de Crédito",
+      "Recuperação judicial e Falência",
+      "Acessão",
+      "Duplicata"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10009778020268130145",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-01-16T14:51:05",
+    "orgaoJulgador": "Vara de Sucessões, Empresarial e de Registros Públicos da Comarca de Juiz de Fora",
+    "assuntos": [
+      "Recuperação extrajudicial"
+    ],
+    "novo": true
+  }
+]

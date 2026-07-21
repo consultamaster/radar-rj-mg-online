@@ -1,0 +1,25 @@
+[
+  {
+    "numeroProcesso": "50001697820268130671",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-01-27T19:28:18",
+    "orgaoJulgador": "Vara Única da Comarca de Serro",
+    "assuntos": [
+      "Administração judicial"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "50002908520268130193",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-01-27T12:32:41",
+    "orgaoJulgador": "1ª Vara Cível, Criminal e de Execuções Penais da Comarca de Coromandel",
+    "assuntos": [
+      "Concurso de Credores",
+      "Administração judicial"
+    ],
+    "novo": true
+  }
+]
