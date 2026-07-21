@@ -1,0 +1,25 @@
+[
+  {
+    "numeroProcesso": "50014866820268130071",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-03-24T15:06:25",
+    "orgaoJulgador": "2ª Vara Cível, Criminal e da Infância e da Juventude da Comarca de Boa Esperança",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "50009883720268130696",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-03-24T14:30:32",
+    "orgaoJulgador": "2ª Vara Cível, Criminal e da Infância e da Juventude da Comarca de Tupaciguara",
+    "assuntos": [
+      "Classificação de créditos",
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "numeroProcesso": "50007010320268130267",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-26T20:45:29",
+    "orgaoJulgador": "Vara Única da Comarca de Francisco Sá",
+    "assuntos": [
+      "Autofalência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10508701520268130024",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-26T16:49:37",
+    "orgaoJulgador": "1ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Classificação de créditos",
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]
