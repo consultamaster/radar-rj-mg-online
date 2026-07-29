@@ -8,7 +8,7 @@
     "assuntos": [
       "Classificação de créditos"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "50009883720268130696",
@@ -20,6 +20,6 @@
       "Classificação de créditos",
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

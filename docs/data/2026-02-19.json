@@ -8,7 +8,7 @@
     "assuntos": [
       "Concurso de Credores"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "50005682520268130569",
@@ -19,6 +19,6 @@
     "assuntos": [
       "Recuperação extrajudicial"
     ],
-    "novo": true
+    "novo": false
   }
 ]

@@ -8,7 +8,7 @@
     "assuntos": [
       "Administração judicial"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "50002908520268130193",
@@ -20,6 +20,6 @@
       "Concurso de Credores",
       "Administração judicial"
     ],
-    "novo": true
+    "novo": false
   }
 ]

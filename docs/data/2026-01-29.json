@@ -8,7 +8,7 @@
     "assuntos": [
       "Liquidação"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "50001605320268130498",
@@ -20,6 +20,6 @@
       "Recuperação judicial e Falência",
       "Depósito Elisivo"
     ],
-    "novo": true
+    "novo": false
   }
 ]

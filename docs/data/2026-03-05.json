@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10071278120268130079",
@@ -19,6 +19,6 @@
     "assuntos": [
       "Administração judicial"
     ],
-    "novo": true
+    "novo": false
   }
 ]

@@ -8,7 +8,7 @@
     "assuntos": [
       "Autofalência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10508701520268130024",
@@ -20,6 +20,6 @@
       "Classificação de créditos",
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

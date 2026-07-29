@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10924537720268130024",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Concurso de Credores"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10083572820268130672",
@@ -31,6 +31,6 @@
       "Recuperação judicial e Falência",
       "Depósito Elisivo"
     ],
-    "novo": true
+    "novo": false
   }
 ]

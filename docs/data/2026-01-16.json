@@ -11,7 +11,7 @@
       "Acessão",
       "Duplicata"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10009778020268130145",
@@ -22,6 +22,6 @@
     "assuntos": [
       "Recuperação extrajudicial"
     ],
-    "novo": true
+    "novo": false
   }
 ]
