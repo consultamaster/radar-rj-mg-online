@@ -1,12 +1,12 @@
 [
   {
-    "numeroProcesso": "50007265920268130382",
+    "numeroProcesso": "50001080920268130126",
     "classeId": 129,
     "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-01-23T19:22:58",
-    "orgaoJulgador": "2ª Vara Cível da Comarca de Lavras",
+    "dataAjuizamento": "2026-01-23T08:59:43",
+    "orgaoJulgador": "Vara Única da Comarca de Capinópolis",
     "assuntos": [
-      "Administração judicial"
+      "Recuperação judicial e Falência"
     ],
     "novo": false
   },
@@ -23,13 +23,13 @@
     "novo": false
   },
   {
-    "numeroProcesso": "50001080920268130126",
+    "numeroProcesso": "50007265920268130382",
     "classeId": 129,
     "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-01-23T08:59:43",
-    "orgaoJulgador": "Vara Única da Comarca de Capinópolis",
+    "dataAjuizamento": "2026-01-23T19:22:58",
+    "orgaoJulgador": "2ª Vara Cível da Comarca de Lavras",
     "assuntos": [
-      "Recuperação judicial e Falência"
+      "Administração judicial"
     ],
     "novo": false
   }

@@ -1,16 +1,5 @@
 [
   {
-    "numeroProcesso": "10013776720268130251",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-04-10T11:41:56",
-    "orgaoJulgador": "1ª Vara Cível, Criminal e de Execuções Penais da Comarca de Extrema",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": true
-  },
-  {
     "numeroProcesso": "50013955220268130596",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -19,6 +8,17 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10013776720268130251",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-04-10T11:41:56",
+    "orgaoJulgador": "1ª Vara Cível, Criminal e de Execuções Penais da Comarca de Extrema",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
   }
 ]

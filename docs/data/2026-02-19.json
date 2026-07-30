@@ -1,16 +1,5 @@
 [
   {
-    "numeroProcesso": "10026767720268130672",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-02-19T20:56:56",
-    "orgaoJulgador": "1ª Vara Cível da Comarca de Sete Lagoas",
-    "assuntos": [
-      "Concurso de Credores"
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "50005682520268130569",
     "classeId": 128,
     "classe": "Recuperação Extrajudicial",
@@ -18,6 +7,17 @@
     "orgaoJulgador": "2ª Vara Cível, Criminal e de Execuções Penais da Comarca de Sacramento",
     "assuntos": [
       "Recuperação extrajudicial"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10026767720268130672",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-02-19T20:56:56",
+    "orgaoJulgador": "1ª Vara Cível da Comarca de Sete Lagoas",
+    "assuntos": [
+      "Concurso de Credores"
     ],
     "novo": false
   }

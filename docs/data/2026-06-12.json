@@ -1,10 +1,10 @@
 [
   {
-    "numeroProcesso": "10090215320268130480",
+    "numeroProcesso": "10296990520268130702",
     "classeId": 129,
     "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-06-12T16:31:05",
-    "orgaoJulgador": "4ª Vara Cível da Comarca de Patos de Minas",
+    "dataAjuizamento": "2026-06-12T14:30:15",
+    "orgaoJulgador": "5ª Vara Cível da Comarca de Uberlândia",
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
@@ -22,11 +22,11 @@
     "novo": false
   },
   {
-    "numeroProcesso": "10296990520268130702",
+    "numeroProcesso": "10090215320268130480",
     "classeId": 129,
     "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-06-12T14:30:15",
-    "orgaoJulgador": "5ª Vara Cível da Comarca de Uberlândia",
+    "dataAjuizamento": "2026-06-12T16:31:05",
+    "orgaoJulgador": "4ª Vara Cível da Comarca de Patos de Minas",
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
