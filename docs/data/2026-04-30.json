@@ -1,0 +1,24 @@
+[
+  {
+    "numeroProcesso": "50049649520268130035",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-04-30T17:50:40",
+    "orgaoJulgador": "1ª Vara Cível da Comarca de Araguari",
+    "assuntos": [
+      "Administração judicial"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "50021361820268130071",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-04-30T16:00:42",
+    "orgaoJulgador": "2ª Vara Cível, Criminal e da Infância e da Juventude da Comarca de Boa Esperança",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": true
+  }
+]
