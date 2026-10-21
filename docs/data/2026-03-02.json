@@ -1,16 +1,5 @@
 [
   {
-    "numeroProcesso": "10000073320268130193",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-03-02T23:05:15",
-    "orgaoJulgador": "2ª Vara Cível, Criminal e da Infância e da Juventude da Comarca de Coromandel",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "10038088220268130701",
     "classeId": 129,
     "classe": "Recuperação Judicial",
@@ -19,6 +8,17 @@
     "assuntos": [
       "Recuperação judicial e Falência",
       "Liminar "
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10000073320268130193",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-03-02T23:05:15",
+    "orgaoJulgador": "2ª Vara Cível, Criminal e da Infância e da Juventude da Comarca de Coromandel",
+    "assuntos": [
+      "Recuperação judicial e Falência"
     ],
     "novo": false
   }

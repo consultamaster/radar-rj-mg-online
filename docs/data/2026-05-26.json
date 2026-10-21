@@ -1,12 +1,13 @@
 [
   {
-    "numeroProcesso": "10053931820268130525",
+    "numeroProcesso": "10083572820268130672",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-26T17:26:32",
-    "orgaoJulgador": "1ª Vara Cível da Comarca de Pouso Alegre",
+    "dataAjuizamento": "2026-05-26T11:19:22",
+    "orgaoJulgador": "3ª Vara Cível da Comarca de Sete Lagoas",
     "assuntos": [
-      "Recuperação judicial e Falência"
+      "Recuperação judicial e Falência",
+      "Depósito Elisivo"
     ],
     "novo": false
   },
@@ -22,14 +23,13 @@
     "novo": false
   },
   {
-    "numeroProcesso": "10083572820268130672",
+    "numeroProcesso": "10053931820268130525",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-26T11:19:22",
-    "orgaoJulgador": "3ª Vara Cível da Comarca de Sete Lagoas",
+    "dataAjuizamento": "2026-05-26T17:26:32",
+    "orgaoJulgador": "1ª Vara Cível da Comarca de Pouso Alegre",
     "assuntos": [
-      "Recuperação judicial e Falência",
-      "Depósito Elisivo"
+      "Recuperação judicial e Falência"
     ],
     "novo": false
   }

@@ -1,16 +1,5 @@
 [
   {
-    "numeroProcesso": "10008829520268130518",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-01-29T10:11:29",
-    "orgaoJulgador": "5ª Vara Cível da Comarca de Poços de Caldas",
-    "assuntos": [
-      "Liquidação"
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "50001605320268130498",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -19,6 +8,17 @@
     "assuntos": [
       "Recuperação judicial e Falência",
       "Depósito Elisivo"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10008829520268130518",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-01-29T10:11:29",
+    "orgaoJulgador": "5ª Vara Cível da Comarca de Poços de Caldas",
+    "assuntos": [
+      "Liquidação"
     ],
     "novo": false
   }

@@ -1,16 +1,5 @@
 [
   {
-    "numeroProcesso": "50001119720268130696",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-01-12T18:48:10",
-    "orgaoJulgador": "2ª Vara Cível, Criminal e da Infância e da Juventude da Comarca de Tupaciguara",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": true
-  },
-  {
     "numeroProcesso": "10007852820268130702",
     "classeId": 129,
     "classe": "Recuperação Judicial",
@@ -19,6 +8,17 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
+  },
+  {
+    "numeroProcesso": "50001119720268130696",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-01-12T18:48:10",
+    "orgaoJulgador": "2ª Vara Cível, Criminal e da Infância e da Juventude da Comarca de Tupaciguara",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
   }
 ]

@@ -1,13 +1,12 @@
 [
   {
-    "numeroProcesso": "50005734820268130116",
+    "numeroProcesso": "10287957920268130024",
     "classeId": 129,
     "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-02-24T17:11:41",
-    "orgaoJulgador": "1ª Vara Cível, Criminal e de Execuções Penais da Comarca de Campos Gerais",
+    "dataAjuizamento": "2026-02-24T10:28:47",
+    "orgaoJulgador": "1ª Vara Empresarial da Comarca de Belo Horizonte",
     "assuntos": [
-      "Administração judicial",
-      "Classificação de créditos"
+      "Recuperação judicial e Falência"
     ],
     "novo": false
   },
@@ -23,13 +22,14 @@
     "novo": false
   },
   {
-    "numeroProcesso": "10287957920268130024",
+    "numeroProcesso": "50005734820268130116",
     "classeId": 129,
     "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-02-24T10:28:47",
-    "orgaoJulgador": "1ª Vara Empresarial da Comarca de Belo Horizonte",
+    "dataAjuizamento": "2026-02-24T17:11:41",
+    "orgaoJulgador": "1ª Vara Cível, Criminal e de Execuções Penais da Comarca de Campos Gerais",
     "assuntos": [
-      "Recuperação judicial e Falência"
+      "Administração judicial",
+      "Classificação de créditos"
     ],
     "novo": false
   }
