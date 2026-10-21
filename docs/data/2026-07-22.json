@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10104530520268130223",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-07-22T17:14:43",
+    "orgaoJulgador": "1ª Vara Cível da Comarca de Divinópolis",
+    "assuntos": [
+      "Recuperação extrajudicial"
+    ],
+    "novo": true
+  }
+]

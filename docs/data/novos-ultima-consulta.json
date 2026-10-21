@@ -1,5 +1,140 @@
 {
-  "executadoEm": "2026-10-20T15:36:19.067Z",
-  "total": 0,
-  "processos": []
+  "executadoEm": "2026-10-21T15:39:50.430Z",
+  "total": 12,
+  "processos": [
+    {
+      "numeroProcesso": "50035949120268130452",
+      "classeId": 129,
+      "classe": "Recuperação Judicial",
+      "dataAjuizamento": "2026-03-27T20:34:03",
+      "orgaoJulgador": "2ª Vara Cível da Comarca de Nova Serrana",
+      "assuntos": [
+        "Administração judicial"
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10001014620268130624",
+      "classeId": 108,
+      "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+      "dataAjuizamento": "2026-06-15T11:28:52",
+      "orgaoJulgador": "Vara Única da Comarca de São João da Ponte",
+      "assuntos": [
+        "Concurso de Credores",
+        "Falência "
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10127068420268130701",
+      "classeId": 108,
+      "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+      "dataAjuizamento": "2026-06-18T10:02:44",
+      "orgaoJulgador": "Vara Empresarial, de Execuções Fiscais e de Registros Públicos da Comarca de Uberaba",
+      "assuntos": [
+        "Recuperação judicial e Falência"
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10102938220268130480",
+      "classeId": 129,
+      "classe": "Recuperação Judicial",
+      "dataAjuizamento": "2026-07-03T15:39:55",
+      "orgaoJulgador": "1ª Vara Cível da Comarca de Patos de Minas",
+      "assuntos": [
+        "Recuperação judicial e Falência"
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10142553220268130701",
+      "classeId": 129,
+      "classe": "Recuperação Judicial",
+      "dataAjuizamento": "2026-07-07T11:44:18",
+      "orgaoJulgador": "Vara Empresarial, de Execuções Fiscais e de Registros Públicos da Comarca de Uberaba",
+      "assuntos": [
+        "Recuperação judicial e Falência"
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10106514720268130480",
+      "classeId": 129,
+      "classe": "Recuperação Judicial",
+      "dataAjuizamento": "2026-07-10T09:26:22",
+      "orgaoJulgador": "3ª Vara Cível da Comarca de Patos de Minas",
+      "assuntos": [
+        "Recuperação judicial e Falência",
+        "Tutela de Urgência"
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10018247420268130180",
+      "classeId": 129,
+      "classe": "Recuperação Judicial",
+      "dataAjuizamento": "2026-07-14T17:28:21",
+      "orgaoJulgador": "2ª Vara Cível, Criminal e da Infância e da Juventude da Comarca de Congonhas",
+      "assuntos": [
+        "Recuperação judicial e Falência"
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10368728020268130702",
+      "classeId": 108,
+      "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+      "dataAjuizamento": "2026-07-16T17:25:54",
+      "orgaoJulgador": "10ª Vara Cível da Comarca de Uberlândia",
+      "assuntos": [
+        "Classificação de créditos"
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10369239120268130702",
+      "classeId": 108,
+      "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+      "dataAjuizamento": "2026-07-16T21:24:38",
+      "orgaoJulgador": "10ª Vara Cível da Comarca de Uberlândia",
+      "assuntos": [
+        "Classificação de créditos"
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10104530520268130223",
+      "classeId": 129,
+      "classe": "Recuperação Judicial",
+      "dataAjuizamento": "2026-07-22T17:14:43",
+      "orgaoJulgador": "1ª Vara Cível da Comarca de Divinópolis",
+      "assuntos": [
+        "Recuperação extrajudicial"
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10415989720268130702",
+      "classeId": 129,
+      "classe": "Recuperação Judicial",
+      "dataAjuizamento": "2026-08-07T13:26:41",
+      "orgaoJulgador": "8ª Vara Cível da Comarca de Uberlândia",
+      "assuntos": [
+        "Recuperação judicial e Falência"
+      ],
+      "novo": true
+    },
+    {
+      "numeroProcesso": "10106436820268130707",
+      "classeId": 129,
+      "classe": "Recuperação Judicial",
+      "dataAjuizamento": "2026-09-15T23:07:00",
+      "orgaoJulgador": "2ª Vara Cível da Comarca de Varginha",
+      "assuntos": [
+        "Recuperação judicial e Falência"
+      ],
+      "novo": true
+    }
+  ]
 }

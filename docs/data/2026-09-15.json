@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10106436820268130707",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-09-15T23:07:00",
+    "orgaoJulgador": "2ª Vara Cível da Comarca de Varginha",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]
