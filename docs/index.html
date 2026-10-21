@@ -85,6 +85,27 @@
     color: var(--text-muted); padding: 0 4px; line-height: 1.2;
   }
 
+  .painel-novos {
+    margin-top: 24px;
+    border: 1px solid var(--brass);
+    background: rgba(201,162,39,0.06);
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .painel-novos .titulo {
+    display: flex; align-items: center; justify-content: space-between;
+    cursor: pointer; gap: 12px; flex-wrap: wrap;
+  }
+  .painel-novos h2 {
+    font-family: 'Fraunces', serif; font-size: 17px; font-weight: 500;
+    margin: 0; color: var(--brass);
+  }
+  .painel-novos .quando {
+    font-size: 12px; color: var(--text-muted);
+  }
+  .painel-novos .corpo { margin-top: 12px; display: none; }
+  .painel-novos .corpo.aberto { display: block; }
+
   .filtros {
     display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
     padding: 16px; margin-top: 24px;
@@ -168,6 +189,15 @@
 </header>
 
 <div class="wrap">
+
+  <div class="painel-novos" id="painelNovos" style="display:none">
+    <div class="titulo" id="tituloNovos">
+      <h2 id="tituloNovosTexto">🆕 Novos na última consulta</h2>
+      <span class="quando" id="quandoNovos"></span>
+    </div>
+    <div class="corpo" id="corpoNovos"></div>
+  </div>
+
   <div class="filtros">
     <div class="campo">
       <span>📅 De</span>
@@ -227,12 +257,54 @@ function diasEntre(de, ate) {
 }
 
 function formatarDataCurta(valor) {
-  // Aceita tanto "AAAA-MM-DD" (datas do seletor/índice) quanto
-  // "AAAA-MM-DDTHH:mm:ss" (data de ajuizamento de cada processo).
   const dataSimples = valor.slice(0, 10);
   const d = new Date(`${dataSimples}T12:00:00`);
   return d.toLocaleDateString('pt-BR');
 }
+
+function renderizarCard(p) {
+  const cl = CLASSES[p.classeId] || { nome: p.classe || '—', cor: '#8B93A6' };
+  return `
+    <div class="card">
+      <div class="barra" style="background:${cl.cor}"></div>
+      <div class="conteudo">
+        ${p.novo ? '<div class="carimbo">NOVO</div>' : ''}
+        <div class="linha1">
+          <span class="numero">${p.numeroProcesso}</span>
+          <span class="tag" style="border-color:${cl.cor}; color:${cl.cor}">${cl.nome}</span>
+        </div>
+        <p class="assunto">${(p.assuntos || []).join(', ') || '—'}</p>
+        <div class="meta">
+          <span>📍 ${p.orgaoJulgador || '—'}</span>
+          <span>Distribuído em ${formatarDataCurta(p.dataAjuizamento)}</span>
+        </div>
+      </div>
+    </div>`;
+}
+
+async function carregarNovosUltimaConsulta() {
+  try {
+    const resp = await fetch('data/novos-ultima-consulta.json');
+    if (!resp.ok) return;
+    const dados = await resp.json();
+    const painel = document.getElementById('painelNovos');
+    if (!dados.total || dados.total === 0) {
+      painel.style.display = 'none';
+      return;
+    }
+    painel.style.display = 'block';
+    document.getElementById('tituloNovosTexto').textContent = `🆕 ${dados.total} novo(s) na última consulta`;
+    const quando = new Date(dados.executadoEm);
+    document.getElementById('quandoNovos').textContent = `rodada em ${quando.toLocaleDateString('pt-BR')} às ${quando.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}`;
+    document.getElementById('corpoNovos').innerHTML = dados.processos.map(renderizarCard).join('');
+  } catch (e) {
+    // Sem dados ainda — não é um erro visível pro usuário
+  }
+}
+
+document.getElementById('tituloNovos').addEventListener('click', () => {
+  document.getElementById('corpoNovos').classList.toggle('aberto');
+});
 
 async function carregarIntervalo(de, ate) {
   document.getElementById('lista').innerHTML = '<div class="carregando">Carregando...</div>';
@@ -320,25 +392,7 @@ function render() {
     return;
   }
 
-  lista.innerHTML = filtrados.map((p) => {
-    const cl = CLASSES[p.classeId] || { nome: p.classe || '—', cor: '#8B93A6' };
-    return `
-    <div class="card">
-      <div class="barra" style="background:${cl.cor}"></div>
-      <div class="conteudo">
-        ${p.novo ? '<div class="carimbo">NOVO</div>' : ''}
-        <div class="linha1">
-          <span class="numero">${p.numeroProcesso}</span>
-          <span class="tag" style="border-color:${cl.cor}; color:${cl.cor}">${cl.nome}</span>
-        </div>
-        <p class="assunto">${(p.assuntos || []).join(', ') || '—'}</p>
-        <div class="meta">
-          <span>📍 ${p.orgaoJulgador || '—'}</span>
-          <span>Distribuído em ${formatarDataCurta(p.dataAjuizamento)}</span>
-        </div>
-      </div>
-    </div>`;
-  }).join('');
+  lista.innerHTML = filtrados.map(renderizarCard).join('');
 }
 
 function dispararIntervalo() {
@@ -353,8 +407,9 @@ document.getElementById('seletorComarca').addEventListener('change', render);
 document.getElementById('busca').addEventListener('input', render);
 
 montarPillsClasse();
+carregarNovosUltimaConsulta();
 
-// Padrão: D-1 até D-1 (dia anterior, que é o que a consulta automática busca)
+// Padrão: D-1 até D-1 (o dia mais recente que costuma já ter dados)
 const padraoDe = hojeISO(1);
 document.getElementById('dataDe').value = padraoDe;
 document.getElementById('dataAte').value = padraoDe;

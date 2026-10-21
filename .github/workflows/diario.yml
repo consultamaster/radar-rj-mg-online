@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       de:
-        description: 'Data inicial (AAAA-MM-DD) — deixe em branco para rodar D-1 normal'
+        description: 'Data inicial (AAAA-MM-DD) — deixe em branco para rodar o período completo padrão (2026-01-01 até hoje)'
         required: false
       ate:
         description: 'Data final (AAAA-MM-DD) — obrigatório se preencher "de"'
@@ -28,16 +28,12 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Calcular a data de ontem (D-1)
-        id: data
-        run: echo "ontem=$(date -u -d 'yesterday' +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
-
-      - name: Rodar a consulta (dia único ou intervalo)
+      - name: Rodar a consulta (período completo por padrão)
         run: |
           if [ -n "${{ inputs.de }}" ] && [ -n "${{ inputs.ate }}" ]; then
             node consultar.js --de "${{ inputs.de }}" --ate "${{ inputs.ate }}"
           else
-            node consultar.js --data "${{ steps.data.outputs.ontem }}"
+            node consultar.js
           fi
 
       - name: Publicar os dados atualizados
