@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "numeroProcesso": "10117419020268130480",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-07-29T15:51:29",
+    "orgaoJulgador": "4ª Vara Cível da Comarca de Patos de Minas",
+    "assuntos": [
+      "Inadimplemento",
+      "Administração judicial"
+    ],
+    "novo": true
+  }
+]
