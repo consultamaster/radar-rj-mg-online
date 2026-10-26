@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10102938220268130480",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-07-03T15:39:55",
+    "orgaoJulgador": "1ª Vara Cível da Comarca de Patos de Minas",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  }
+]

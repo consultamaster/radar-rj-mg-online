@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10048386520268130439",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-09-21T14:17:00",
+    "orgaoJulgador": "2ª Vara Cível da Comarca de Muriaé",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  }
+]

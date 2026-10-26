@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "numeroProcesso": "10001014620268130624",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-15T11:28:52",
+    "orgaoJulgador": "Vara Única da Comarca de São João da Ponte",
+    "assuntos": [
+      "Concurso de Credores",
+      "Falência "
+    ],
+    "novo": false
+  }
+]

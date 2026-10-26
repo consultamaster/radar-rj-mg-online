@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "numeroProcesso": "10368728020268130702",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-16T17:25:54",
+    "orgaoJulgador": "10ª Vara Cível da Comarca de Uberlândia",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10369239120268130702",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-16T21:24:38",
+    "orgaoJulgador": "10ª Vara Cível da Comarca de Uberlândia",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": false
+  }
+]

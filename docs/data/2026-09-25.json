@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10018791220268130637",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-09-25T13:47:58",
+    "orgaoJulgador": "2ª Vara Cível da Comarca de São Lourenço",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  }
+]
