@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40001491620268260260",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40000266720268260373",
@@ -30,7 +30,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40001215720268260354",
@@ -41,7 +41,7 @@
     "assuntos": [
       "Inadimplemento"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40148827920268260100",
@@ -52,6 +52,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

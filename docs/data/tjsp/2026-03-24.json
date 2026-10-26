@@ -8,30 +8,7 @@
     "assuntos": [
       "Revogação de atos praticados em prejuízo de credores e da massa"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "40094431720268260576",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-03-24T09:40:31",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 2ª,5ªe 8ª RAJs",
-    "assuntos": [
-      "Recuperação judicial e Falência",
-      "Concurso de Credores"
-    ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "10001969420268260210",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-03-24T10:59:22",
-    "orgaoJulgador": "VARA REGIONAL EMPRESARIAL E DE CONFLITOS DE ARBITRAGEM - 2ª RAJ/ 5ª RAJ/ 8ª RAJ",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40005285420268260260",
@@ -42,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40475137620268260100",
@@ -53,6 +30,6 @@
     "assuntos": [
       "Depósito Elisivo"
     ],
-    "novo": true
+    "novo": false
   }
 ]

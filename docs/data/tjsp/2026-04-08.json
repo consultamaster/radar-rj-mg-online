@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40585466320268260100",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10024377320268260361",
@@ -30,7 +30,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40587085820268260100",
@@ -41,6 +41,6 @@
     "assuntos": [
       "Prestação de Serviços"
     ],
-    "novo": true
+    "novo": false
   }
 ]

@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10050154320268260576",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Autofalência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40576935420268260100",
@@ -30,7 +30,7 @@
     "assuntos": [
       "Comandita por Ações"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40004930620268260354",
@@ -41,7 +41,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40020418720268260541",
@@ -53,6 +53,6 @@
       "Recuperação judicial e Falência",
       "Administração judicial"
     ],
-    "novo": true
+    "novo": false
   }
 ]

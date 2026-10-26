@@ -8,7 +8,7 @@
     "assuntos": [
       "Concurso de Credores"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10141178920268260576",
@@ -19,18 +19,7 @@
     "assuntos": [
       "Concurso de Credores"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "10007185320268260653",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-09-09T14:47:19",
-    "orgaoJulgador": "01 VARA REGIONAL EMPRESARIAL E DE CONFLITOS DE ARBITRAGEM - 4ª RAJ/ 10ª RAJ",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10000259320268260354",
@@ -41,6 +30,6 @@
     "assuntos": [
       "Arrendamento Mercantil"
     ],
-    "novo": true
+    "novo": false
   }
 ]

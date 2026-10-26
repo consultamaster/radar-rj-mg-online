@@ -8,7 +8,7 @@
     "assuntos": [
       "Nota Promissória"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40568188420268260100",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Cessão de Crédito"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40016326220268260428",
@@ -30,6 +30,6 @@
     "assuntos": [
       "Recuperação extrajudicial"
     ],
-    "novo": true
+    "novo": false
   }
 ]

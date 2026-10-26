@@ -9,7 +9,7 @@
       "Recuperação judicial e Falência",
       "Classificação de créditos"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40542941720268260100",
@@ -20,7 +20,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40543522020268260100",
@@ -31,6 +31,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

@@ -1,12 +1,12 @@
 [
   {
-    "numeroProcesso": "40757770620268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-05T10:49:40",
-    "orgaoJulgador": "Juízo Auxiliar - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "numeroProcesso": "40765834120268260100",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-05-05T21:04:00",
+    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
     "assuntos": [
-      "Autofalência"
+      "Administração judicial"
     ],
     "novo": true
   }

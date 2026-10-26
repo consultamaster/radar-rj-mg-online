@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40008074920268260354",
@@ -19,27 +19,16 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
-    "numeroProcesso": "40011668720268260260",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-06-11T13:01:31",
-    "orgaoJulgador": "Juízo Titular I - 2ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
+    "numeroProcesso": "41036074420268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-11T17:37:44",
+    "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
     "assuntos": [
       "Recuperação judicial e Falência"
-    ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "41032567120268260100",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-06-11T14:40:55",
-    "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Administração judicial"
     ],
     "novo": true
   },
@@ -52,6 +41,6 @@
     "assuntos": [
       "Indenização por Dano Moral"
     ],
-    "novo": true
+    "novo": false
   }
 ]

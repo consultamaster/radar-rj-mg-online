@@ -8,18 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "40188926920268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-02-09T10:44:35",
-    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Classificação de créditos"
-    ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40045994020268260506",
@@ -30,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40190087520268260100",
@@ -41,7 +30,7 @@
     "assuntos": [
       "Depósito Elisivo"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40001683120268260354",
@@ -52,18 +41,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "10014498320268260577",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-02-09T16:14:31",
-    "orgaoJulgador": "05 CIVEL DE SAO JOSE DOS CAMPOS",
-    "assuntos": [
-      "Concurso de Credores"
-    ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40002176320268260260",
@@ -76,6 +54,6 @@
       "Duplicata",
       "Liquidação"
     ],
-    "novo": true
+    "novo": false
   }
 ]

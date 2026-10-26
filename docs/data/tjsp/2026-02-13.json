@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10020008520268260602",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40002566920268260354",
@@ -30,7 +30,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10006575220268260344",
@@ -41,7 +41,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40014192220268260019",
@@ -52,7 +52,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40229034420268260100",
@@ -63,7 +63,7 @@
     "assuntos": [
       "Recuperação extrajudicial"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40002619120268260354",
@@ -74,6 +74,6 @@
     "assuntos": [
       "Recuperação extrajudicial"
     ],
-    "novo": true
+    "novo": false
   }
 ]

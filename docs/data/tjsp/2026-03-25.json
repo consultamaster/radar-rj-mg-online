@@ -9,7 +9,7 @@
       "Recuperação judicial e Falência",
       "Concurso de Credores"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10009900820268260278",
@@ -21,7 +21,7 @@
       "Concurso de Credores",
       "Liquidação"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40001010920268260373",
@@ -32,18 +32,7 @@
     "assuntos": [
       "Concurso de Credores"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "40048084820268260008",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-03-25T12:44:09",
-    "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação extrajudicial"
-    ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10007354820268260408",
@@ -54,6 +43,6 @@
     "assuntos": [
       "Concurso de Credores"
     ],
-    "novo": true
+    "novo": false
   }
 ]

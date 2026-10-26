@@ -9,7 +9,7 @@
       "Pagamento",
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40173865820268260100",
@@ -20,7 +20,7 @@
     "assuntos": [
       "Autofalência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40176654420268260100",
@@ -31,6 +31,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

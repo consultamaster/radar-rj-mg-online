@@ -8,6 +8,17 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40008360220268260354",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-16T14:49:20",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
     "novo": true
   },
   {
@@ -20,6 +31,17 @@
       "Recuperação judicial e Falência",
       "Classificação de créditos"
     ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "41068396420268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-16T17:46:30",
+    "orgaoJulgador": "Juízo Titular II - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
     "novo": true
   },
   {
@@ -31,7 +53,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "41068872320268260100",
@@ -42,18 +64,7 @@
     "assuntos": [
       "Classificação de créditos"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "41068916020268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-06-16T18:47:04",
-    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Classificação de créditos"
-    ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "41068993720268260100",
@@ -64,7 +75,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "41070076620268260100",
@@ -75,6 +86,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

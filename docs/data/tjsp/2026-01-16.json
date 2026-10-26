@@ -8,7 +8,7 @@
     "assuntos": [
       "Concurso de Credores"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40000539820268260260",
@@ -20,6 +20,6 @@
       "Recuperação judicial e Falência",
       "Concurso de Credores"
     ],
-    "novo": true
+    "novo": false
   }
 ]

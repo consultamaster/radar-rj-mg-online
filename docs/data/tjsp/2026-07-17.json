@@ -8,7 +8,7 @@
     "assuntos": [
       "Concurso de Credores"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "41307293220268260100",
@@ -19,6 +19,6 @@
     "assuntos": [
       "Liquidação"
     ],
-    "novo": true
+    "novo": false
   }
 ]

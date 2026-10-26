@@ -8,17 +8,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "10107920620268260577",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-09-10T20:14:38",
-    "orgaoJulgador": "02 CIVEL DE SAO JOSE DOS CAMPOS",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": true
+    "novo": false
   }
 ]

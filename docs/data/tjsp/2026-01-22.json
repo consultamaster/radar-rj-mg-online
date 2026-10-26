@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40084669520268260100",
@@ -19,17 +19,6 @@
     "assuntos": [
       "Concurso de Credores"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "10000540820268260108",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-01-22T16:05:47",
-    "orgaoJulgador": "02 CUMULATIVA DE CAJAMAR",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": true
+    "novo": false
   }
 ]

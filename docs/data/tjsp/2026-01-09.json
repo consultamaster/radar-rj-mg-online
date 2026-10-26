@@ -8,7 +8,7 @@
     "assuntos": [
       "Obrigação de Fazer / Não Fazer"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40000115820268260354",
@@ -19,18 +19,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "40000423920268260270",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-01-09T14:58:13",
-    "orgaoJulgador": "Juízo Titular I - CEJUSC  da Comarca de Campinas",
-    "assuntos": [
-      "Recuperação judicial e Falência",
-      "Pagamento"
-    ],
-    "novo": true
+    "novo": false
   }
 ]

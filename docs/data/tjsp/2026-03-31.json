@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40006246920268260260",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Cessão de Crédito"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10017916520268260037",
@@ -30,7 +30,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "10047391220268260576",
@@ -41,6 +41,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

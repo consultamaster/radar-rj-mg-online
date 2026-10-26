@@ -9,7 +9,7 @@
       "Recuperação judicial e Falência",
       "Administração judicial"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40002665620268260373",
@@ -21,7 +21,7 @@
       "Recuperação judicial e Falência",
       "Nota Promissória"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40739245920268260100",
@@ -36,7 +36,7 @@
       "Concurso de Credores",
       "Classificação de créditos"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40740926120268260100",
@@ -47,7 +47,7 @@
     "assuntos": [
       "Classificação de créditos"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40741506420268260100",
@@ -58,7 +58,7 @@
     "assuntos": [
       "Autofalência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40008350820268260260",
@@ -69,7 +69,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40008369020268260260",
@@ -80,6 +80,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

@@ -1,16 +1,5 @@
 [
   {
-    "numeroProcesso": "40128795420268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-01-29T14:33:17",
-    "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Inadimplemento"
-    ],
-    "novo": true
-  },
-  {
     "numeroProcesso": "40131332720268260100",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -19,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40000391120268260359",
@@ -30,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40132796820268260100",
@@ -41,29 +30,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "40003322820268260408",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-01-29T19:58:17",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
-    "assuntos": [
-      "Recuperação judicial e Falência",
-      "Tutela de Urgência"
-    ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "40133636920268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-01-29T22:48:09",
-    "orgaoJulgador": "Juízo Titular II - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": true
+    "novo": false
   }
 ]

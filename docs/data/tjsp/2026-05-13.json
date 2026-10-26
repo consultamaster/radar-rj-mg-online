@@ -1,28 +1,5 @@
 [
   {
-    "numeroProcesso": "40006723720268260354",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-13T14:32:18",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
-    "assuntos": [
-      "Recuperação judicial e Falência",
-      "Confissão/Composição de Dívida"
-    ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "10050313320268260564",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-13T15:24:06",
-    "orgaoJulgador": "03 CIVEL DE SAO BERNARDO DO CAMPO",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": true
-  },
-  {
     "numeroProcesso": "40009339020268260260",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -32,7 +9,7 @@
       "Recuperação judicial e Falência",
       "Falência "
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40822544520268260100",
@@ -43,18 +20,7 @@
     "assuntos": [
       "Nota Promissória"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "10003839020268260699",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-13T17:22:37",
-    "orgaoJulgador": "01 VARA REGIONAL EMPRESARIAL E DE CONFLITOS DE ARBITRAGEM - 4ª RAJ/ 10ª RAJ",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40009356020268260260",
@@ -65,6 +31,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

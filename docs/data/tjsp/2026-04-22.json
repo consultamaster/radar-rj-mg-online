@@ -8,7 +8,7 @@
     "assuntos": [
       "Autofalência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40673952420268260100",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40674325120268260100",
@@ -30,7 +30,7 @@
     "assuntos": [
       "Inadimplemento"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40021340220268260266",
@@ -41,6 +41,6 @@
     "assuntos": [
       "Autofalência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

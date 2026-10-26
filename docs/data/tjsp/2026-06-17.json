@@ -1,5 +1,16 @@
 [
   {
+    "numeroProcesso": "40012066920268260260",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-17T10:46:27",
+    "orgaoJulgador": "Juízo Titular I - 2ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
+    "assuntos": [
+      "Nota Promissória"
+    ],
+    "novo": true
+  },
+  {
     "numeroProcesso": "41071912220268260100",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -11,7 +22,7 @@
       "Classificação de créditos",
       "Concurso de Credores"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40004176420268260359",
@@ -22,6 +33,28 @@
     "assuntos": [
       "Recuperação judicial e Falência",
       "Concurso de Credores"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "41074597620268260100",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-06-17T14:09:08",
+    "orgaoJulgador": "Juízo Auxiliar - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "41076831420268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-17T16:06:49",
+    "orgaoJulgador": "Juízo Auxiliar - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Depósito Elisivo"
     ],
     "novo": true
   },
@@ -34,7 +67,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "41079282520268260100",
@@ -45,7 +78,7 @@
     "assuntos": [
       "Classificação de créditos"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "41080599720268260100",
@@ -56,17 +89,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "10093492320268260576",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-06-17T22:02:09",
-    "orgaoJulgador": "08 CIVEL DE SAO JOSE DO RIO PRETO",
-    "assuntos": [
-      "Classificação de créditos"
-    ],
-    "novo": true
+    "novo": false
   }
 ]

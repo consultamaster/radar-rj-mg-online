@@ -8,7 +8,7 @@
     "assuntos": [
       "Administração judicial"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40144863220268260576",
@@ -20,7 +20,7 @@
       "Recuperação judicial e Falência",
       "Superendividamento"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40726696620268260100",
@@ -31,7 +31,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40730870420268260100",
@@ -42,7 +42,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40731754220268260100",
@@ -53,6 +53,6 @@
     "assuntos": [
       "Recuperação extrajudicial"
     ],
-    "novo": true
+    "novo": false
   }
 ]

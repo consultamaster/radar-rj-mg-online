@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40602683520268260100",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40002427020268260359",
@@ -31,7 +31,7 @@
       "Concurso de Credores",
       "Liminar "
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40607801820268260100",
@@ -43,6 +43,6 @@
       "Concurso de Credores",
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

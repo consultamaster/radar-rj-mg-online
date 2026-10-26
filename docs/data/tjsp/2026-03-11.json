@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação extrajudicial"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40379843320268260100",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40076642720268260576",
@@ -30,7 +30,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40380259720268260100",
@@ -42,18 +42,7 @@
       "Recuperação judicial e Falência",
       "Depósito Elisivo"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "40380553520268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-03-11T13:49:38",
-    "orgaoJulgador": "Juízo Auxiliar - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Indenização por Dano Material"
-    ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40003727520268260354",
@@ -64,7 +53,7 @@
     "assuntos": [
       "Concurso de Credores"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40381116820268260100",
@@ -75,29 +64,7 @@
     "assuntos": [
       "Depósito Elisivo"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "40381558720268260100",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-03-11T14:39:27",
-    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "40385109720268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-03-11T19:00:52",
-    "orgaoJulgador": "Juízo Titular II - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Concurso de Credores"
-    ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40385265120268260100",
@@ -108,21 +75,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
-  },
-  {
-    "numeroProcesso": "40386036020268260100",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-03-11T21:07:14",
-    "orgaoJulgador": "Juízo Auxiliar - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação judicial e Falência",
-      "Administração judicial",
-      "Classificação de créditos",
-      "Concurso de Credores",
-      "Recuperação Judicial "
-    ],
-    "novo": true
+    "novo": false
   }
 ]

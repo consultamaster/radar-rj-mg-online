@@ -8,7 +8,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40253163020268260100",
@@ -19,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40055214420268260001",
@@ -30,6 +30,6 @@
     "assuntos": [
       "Defeito, nulidade ou anulação"
     ],
-    "novo": true
+    "novo": false
   }
 ]

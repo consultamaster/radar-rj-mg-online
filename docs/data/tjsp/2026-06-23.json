@@ -1,5 +1,27 @@
 [
   {
+    "numeroProcesso": "40018516120268260659",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-23T08:58:12",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "41115995620268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-23T11:38:29",
+    "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
     "numeroProcesso": "40238322320268260506",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -8,7 +30,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40008646720268260354",
@@ -19,6 +41,6 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   }
 ]
