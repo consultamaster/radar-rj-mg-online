@@ -197,6 +197,15 @@ function salvarHistorico(set) {
 // CONSULTA À API DATAJUD (com nova tentativa automática em falhas)
 // ---------------------------------------------------------------
 
+const MAX_TENTATIVAS = 8;
+const STATUS_TENTAR_DE_NOVO = [429, 500, 502, 503, 504];
+const ESPERA_BASE_MS = Number(process.env.ESPERA_BASE_MS || 4000);
+
+// Espera crescente: 4s, 8s, 16s, 32s, 60s, 60s... (limite de 60s)
+function esperaDaTentativa(tentativa) {
+  return Math.min(60000, ESPERA_BASE_MS * 2 ** (tentativa - 1));
+}
+
 async function requisitar(body, tentativa = 1) {
   let resp;
   try {
@@ -211,25 +220,25 @@ async function requisitar(body, tentativa = 1) {
   } catch (err) {
     // Falha de conexão (não chegou a ter resposta HTTP)
     const motivo = (err.cause && (err.cause.code || err.cause.message)) || err.message;
-    if (tentativa <= 5) {
-      const espera = 3000 * tentativa;
-      console.log(`  Falha de conexão (${motivo}) — tentando de novo em ${espera / 1000}s (tentativa ${tentativa}/5)...`);
+    if (tentativa < MAX_TENTATIVAS) {
+      const espera = esperaDaTentativa(tentativa);
+      console.log(`  Falha de conexão (${motivo}) — tentando de novo em ${Math.round(espera / 1000)}s (tentativa ${tentativa}/${MAX_TENTATIVAS})...`);
       await aguardar(espera);
       return requisitar(body, tentativa + 1);
     }
-    throw new Error(`Falha de conexão com a API DataJud após 5 tentativas: ${motivo}`);
+    throw new Error(`Falha de conexão com a API DataJud após ${MAX_TENTATIVAS} tentativas: ${motivo}`);
   }
 
-  // A API pública do CNJ tem limite de requisições simultâneas.
-  if ((resp.status === 429 || resp.status === 503) && tentativa <= 5) {
-    const espera = 2000 * tentativa;
-    console.log(`  API ocupada (HTTP ${resp.status}) — tentando de novo em ${espera / 1000}s (tentativa ${tentativa}/5)...`);
+  // A API pública do CNJ fica sobrecarregada de vez em quando (429/503/504).
+  if (STATUS_TENTAR_DE_NOVO.includes(resp.status) && tentativa < MAX_TENTATIVAS) {
+    const espera = esperaDaTentativa(tentativa);
+    console.log(`  API ocupada (HTTP ${resp.status}) — tentando de novo em ${Math.round(espera / 1000)}s (tentativa ${tentativa}/${MAX_TENTATIVAS})...`);
     await aguardar(espera);
     return requisitar(body, tentativa + 1);
   }
 
   if (!resp.ok) {
-    const texto = await resp.text();
+    const texto = (await resp.text()).slice(0, 300);
     throw new Error(`Erro na API DataJud (HTTP ${resp.status}): ${texto}`);
   }
 
@@ -286,16 +295,34 @@ async function buscarBloco(deISO, ateISO, comarca) {
   return todos;
 }
 
-// Busca TODOS os processos do período, mês a mês.
+// Tempo máximo total gasto em consultas (evita ficar horas esperando uma
+// API sobrecarregada). Depois disso, os meses restantes ficam para a próxima.
+const PRAZO_MAXIMO_MS = Number(process.env.PRAZO_MAXIMO_MS || 35 * 60 * 1000);
+
+// Busca TODOS os processos do período, mês a mês. Se um mês falhar mesmo
+// depois das novas tentativas, ele é registrado em "falhas" e os demais
+// continuam — assim um problema do CNJ num mês não perde o resto.
 async function buscarIntervalo(deISO, ateISO, comarca) {
+  const inicio = Date.now();
   let todos = [];
+  const falhas = [];
   for (const [ini, fim] of dividirEmMeses(deISO, ateISO)) {
-    const hits = await buscarBloco(ini, fim, comarca);
-    todos = todos.concat(hits);
-    console.log(`  ${ini} a ${fim}: ${hits.length} processo(s) (acumulado: ${todos.length})`);
-    await aguardar(500);
+    if (Date.now() - inicio > PRAZO_MAXIMO_MS) {
+      console.log(`  ${ini} a ${fim}: PULADO (tempo máximo atingido)`);
+      falhas.push([ini, fim]);
+      continue;
+    }
+    try {
+      const hits = await buscarBloco(ini, fim, comarca);
+      todos = todos.concat(hits);
+      console.log(`  ${ini} a ${fim}: ${hits.length} processo(s) (acumulado: ${todos.length})`);
+    } catch (err) {
+      console.log(`  ${ini} a ${fim}: FALHOU — ${err.message.split('\n')[0]}`);
+      falhas.push([ini, fim]);
+    }
+    await aguardar(1000);
   }
-  return todos;
+  return { hits: todos, falhas };
 }
 
 // ---------------------------------------------------------------
@@ -305,7 +332,8 @@ async function buscarIntervalo(deISO, ateISO, comarca) {
 async function rodarResync(deISO, ateISO, comarca) {
   console.log(`\nConsultando ${TJ.nome} — período de ${deISO} até ${ateISO}${comarca ? ` — comarca: ${comarca}` : ''}...`);
 
-  const hits = await buscarIntervalo(deISO, ateISO, comarca);
+  const { hits, falhas } = await buscarIntervalo(deISO, ateISO, comarca);
+  const diaEmFalha = (dia) => falhas.some(([i, f]) => dia >= i && dia <= f);
   const vistos = carregarHistorico();
   const porDia = new Map();
   const novosNestaExecucao = [];
@@ -346,13 +374,25 @@ async function rodarResync(deISO, ateISO, comarca) {
     atual = proximoDia(atual);
   }
   for (const dia of diasDoIntervalo) {
+    if (diaEmFalha(dia)) continue; // mês que falhou: mantém o arquivo que já existia
     const processosDoDia = porDia.get(dia) || [];
     fs.writeFileSync(path.join(DIR_DADOS, `${dia}.json`), JSON.stringify(processosDoDia, null, 2));
   }
 
   // Índice: reflete exatamente o período consultado
   const indice = diasDoIntervalo
-    .map((dia) => ({ data: dia, total: (porDia.get(dia) || []).length }))
+    .map((dia) => {
+      if (diaEmFalha(dia)) {
+        // mantém a contagem do arquivo anterior, se existir
+        try {
+          const antigo = JSON.parse(fs.readFileSync(path.join(DIR_DADOS, `${dia}.json`), 'utf-8'));
+          return { data: dia, total: antigo.length };
+        } catch (e) {
+          return { data: dia, total: 0 };
+        }
+      }
+      return { data: dia, total: (porDia.get(dia) || []).length };
+    })
     .sort((a, b) => (a.data < b.data ? 1 : -1));
   fs.writeFileSync(ARQ_INDICE, JSON.stringify(indice, null, 2));
 
@@ -395,6 +435,12 @@ async function rodarResync(deISO, ateISO, comarca) {
   console.log(
     `\nConcluído: ${hits.length} processo(s) no período, ${novosNestaExecucao.length} novo(s) descoberto(s) nesta execução.`
   );
+
+  if (falhas.length > 0) {
+    console.log(`\nATENÇÃO: ${falhas.length} período(s) não puderam ser consultados (API do CNJ sobrecarregada): ${falhas.map(([i, f]) => `${i}..${f}`).join(', ')}.`);
+    console.log('Os dados desses períodos foram MANTIDOS como estavam. Rode novamente mais tarde.');
+    process.exitCode = 1;
+  }
 }
 
 // ---------------------------------------------------------------
