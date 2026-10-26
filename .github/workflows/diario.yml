@@ -1,11 +1,21 @@
-name: Consulta diária de distribuições (TJMG)
+name: Consulta diária de distribuições (TJMG e TJSP)
 
 on:
   schedule:
-    # 11:00 UTC = 08:00 no horário de Brasília (UTC-3)
+    # 11:00 UTC = 08:00 no horário de Brasília (UTC-3).
+    # O GitHub costuma atrasar execuções agendadas (às vezes por horas).
     - cron: '0 11 * * *'
   workflow_dispatch:
     inputs:
+      tribunal:
+        description: 'Tribunal a consultar'
+        required: false
+        default: 'todos'
+        type: choice
+        options:
+          - todos
+          - tjmg
+          - tjsp
       de:
         description: 'Data inicial (AAAA-MM-DD) — deixe em branco para rodar o período completo padrão (2026-01-01 até hoje)'
         required: false
@@ -19,6 +29,10 @@ permissions:
 jobs:
   consultar:
     runs-on: ubuntu-latest
+    env:
+      TRIBUNAL: ${{ inputs.tribunal || 'todos' }}
+      DE: ${{ inputs.de }}
+      ATE: ${{ inputs.ate }}
     steps:
       - name: Baixar o repositório
         uses: actions/checkout@v4
@@ -28,12 +42,26 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Rodar a consulta (período completo por padrão)
+      - name: Consulta TJMG
+        id: tjmg
+        if: env.TRIBUNAL == 'todos' || env.TRIBUNAL == 'tjmg'
+        continue-on-error: true
         run: |
-          if [ -n "${{ inputs.de }}" ] && [ -n "${{ inputs.ate }}" ]; then
-            node consultar.js --de "${{ inputs.de }}" --ate "${{ inputs.ate }}"
+          if [ -n "$DE" ] && [ -n "$ATE" ]; then
+            node consultar.js --tribunal tjmg --de "$DE" --ate "$ATE"
           else
-            node consultar.js
+            node consultar.js --tribunal tjmg
+          fi
+
+      - name: Consulta TJSP
+        id: tjsp
+        if: env.TRIBUNAL == 'todos' || env.TRIBUNAL == 'tjsp'
+        continue-on-error: true
+        run: |
+          if [ -n "$DE" ] && [ -n "$ATE" ]; then
+            node consultar.js --tribunal tjsp --de "$DE" --ate "$ATE"
+          else
+            node consultar.js --tribunal tjsp
           fi
 
       - name: Publicar os dados atualizados
@@ -41,6 +69,15 @@ jobs:
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
-          git add docs/data visto.json
+          git add docs/data
+          git add visto.json 2>/dev/null || true
+          git add visto-tjsp.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Atualiza distribuições — execução em $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main || true
           git push
+
+      - name: Sinalizar falha de alguma consulta
+        if: steps.tjmg.outcome == 'failure' || steps.tjsp.outcome == 'failure'
+        run: |
+          echo "TJMG: ${{ steps.tjmg.outcome }} | TJSP: ${{ steps.tjsp.outcome }}"
+          exit 1

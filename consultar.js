@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Radar de Distribuições — Recuperação Judicial e Falência (TJMG)
+ * Radar de Distribuições — Recuperação Judicial e Falência (TJMG e TJSP)
  * ------------------------------------------------------------------
  * Todo dia, reconsulta o PERÍODO INTEIRO (de 2026-01-01 até hoje) numa
  * busca paginada só — em vez de um dia por vez — porque o DataJud às
@@ -21,7 +21,10 @@
  *  5. Atualiza visto.json (histórico de processos já vistos).
  *
  * Uso:
- *   node consultar.js                                -> período completo (padrão)
+ *   node consultar.js                                -> TJMG, período completo (padrão)
+ *   node consultar.js --tribunal tjsp                -> TJSP, período completo
+ *   node consultar.js --tribunal tjsp --classes      -> lista os códigos de classe (valida 108)
+ *   node consultar.js --tribunal tjsp --ultimos      -> 5 processos mais recentes da base
  *   node consultar.js --de 2026-07-01 --ate 2026-07-15  -> intervalo específico
  *   node consultar.js --data 2026-07-15              -> um único dia
  *   node consultar.js --comarca "Belo Horizonte"     -> filtra por comarca
@@ -43,12 +46,28 @@ const path = require('path');
 // https://datajud-wiki.cnj.jus.br/api-publica/acesso
 const API_KEY = 'cDZHYzlZa0JadVREZDJCendQbXY6SkJlTzNjLV9TRENyQk1RdnFKZGRQdw==';
 
-const ENDPOINT = 'https://api-publica.datajud.cnj.jus.br/api_publica_tjmg/_search';
+// Tribunais suportados. Cada um grava numa pasta própria e tem o seu
+// próprio histórico de "já vistos". O TJMG mantém os caminhos originais.
+const TRIBUNAIS = {
+  tjmg: {
+    nome: 'TJMG',
+    endpoint: 'https://api-publica.datajud.cnj.jus.br/api_publica_tjmg/_search',
+    dirDados: path.join(__dirname, 'docs', 'data'),
+    historico: path.join(__dirname, 'visto.json'),
+  },
+  tjsp: {
+    nome: 'TJSP',
+    endpoint: 'https://api-publica.datajud.cnj.jus.br/api_publica_tjsp/_search',
+    dirDados: path.join(__dirname, 'docs', 'data', 'tjsp'),
+    historico: path.join(__dirname, 'visto-tjsp.json'),
+  },
+};
 
 // Classes processuais de interesse (Tabela Processual Unificada - CNJ)
 //   129 = Recuperação Judicial
 //   128 = Recuperação Extrajudicial
 //   108 = Falência de Empresários, Sociedades Empresariais, ME e EPP
+// (confira no log "Distribuição por classe" se o 108 é mesmo Falência)
 const CLASSES_DE_INTERESSE = [129, 128, 108];
 
 // Início do período acompanhado por padrão (quando nenhuma data é informada)
@@ -56,10 +75,25 @@ const DATA_INICIO_PADRAO = '2026-01-01';
 
 const TAMANHO_PAGINA = 200;
 
-const ARQ_HISTORICO = path.join(__dirname, 'visto.json');
-const DIR_DADOS = path.join(__dirname, 'docs', 'data');
-const ARQ_INDICE = path.join(DIR_DADOS, 'index.json');
-const ARQ_NOVOS = path.join(DIR_DADOS, 'novos-ultima-consulta.json');
+// Tribunal ativo (definido em main) e caminhos derivados dele
+let TJ = TRIBUNAIS.tjmg;
+let ENDPOINT = TJ.endpoint;
+let ARQ_HISTORICO, DIR_DADOS, ARQ_INDICE, ARQ_NOVOS;
+
+function definirTribunal(chave) {
+  const t = TRIBUNAIS[chave];
+  if (!t) throw new Error(`Tribunal desconhecido: "${chave}". Use: ${Object.keys(TRIBUNAIS).join(', ')}.`);
+  TJ = t;
+  // DATAJUD_BASE_URL permite apontar para uma API simulada (testes locais).
+  ENDPOINT = process.env.DATAJUD_BASE_URL
+    ? t.endpoint.replace('https://api-publica.datajud.cnj.jus.br', process.env.DATAJUD_BASE_URL)
+    : t.endpoint;
+  ARQ_HISTORICO = t.historico;
+  DIR_DADOS = t.dirDados;
+  ARQ_INDICE = path.join(DIR_DADOS, 'index.json');
+  ARQ_NOVOS = path.join(DIR_DADOS, 'novos-ultima-consulta.json');
+}
+definirTribunal('tjmg');
 
 // ---------------------------------------------------------------
 // DATAS
@@ -124,12 +158,13 @@ function aguardar(ms) {
 
 function lerArgumentos() {
   const args = process.argv.slice(2);
-  const opts = { data: null, de: null, ate: null, comarca: null };
+  const opts = { data: null, de: null, ate: null, comarca: null, tribunal: 'tjmg' };
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--data') opts.data = normalizarData(args[++i]);
     if (args[i] === '--de') opts.de = normalizarData(args[++i]);
     if (args[i] === '--ate') opts.ate = normalizarData(args[++i]);
     if (args[i] === '--comarca') opts.comarca = args[++i];
+    if (args[i] === '--tribunal') opts.tribunal = String(args[++i] || '').toLowerCase();
   }
   // Sem nada informado: resync completo, do início do acompanhamento até hoje.
   if (!opts.de && !opts.ate && !opts.data) {
@@ -201,9 +236,24 @@ async function requisitar(body, tentativa = 1) {
   return resp.json();
 }
 
-// Busca TODOS os processos de um período (com paginação), numa consulta
-// só — muito mais eficiente do que uma busca por dia.
-async function buscarIntervalo(deISO, ateISO, comarca) {
+// Divide o período em blocos de, no máximo, um mês. Cada bloco é paginado
+// separadamente — o Elasticsearch do DataJud limita from+size a 10.000
+// resultados por consulta, e tribunais grandes (TJSP) podem passar disso
+// num período longo.
+function dividirEmMeses(deISO, ateISO) {
+  const blocos = [];
+  let ini = deISO;
+  while (ini <= ateISO) {
+    const [ano, mes] = ini.split('-').map(Number);
+    const ultimoDiaMes = new Date(Date.UTC(ano, mes, 0)).toISOString().split('T')[0];
+    const fim = ultimoDiaMes < ateISO ? ultimoDiaMes : ateISO;
+    blocos.push([ini, fim]);
+    ini = proximoDia(fim);
+  }
+  return blocos;
+}
+
+async function buscarBloco(deISO, ateISO, comarca) {
   const gte = paraCompacto(deISO);
   const lt = paraCompacto(proximoDia(ateISO));
 
@@ -216,6 +266,10 @@ async function buscarIntervalo(deISO, ateISO, comarca) {
   let todos = [];
   let from = 0;
   while (true) {
+    if (from + TAMANHO_PAGINA > 10000) {
+      console.log(`  ATENÇÃO: bloco ${deISO}..${ateISO} passou do limite de 10.000 resultados da API; o restante foi ignorado.`);
+      break;
+    }
     const body = {
       size: TAMANHO_PAGINA,
       from,
@@ -225,11 +279,20 @@ async function buscarIntervalo(deISO, ateISO, comarca) {
     const json = await requisitar(body);
     const hits = (json.hits && json.hits.hits) || [];
     todos = todos.concat(hits);
-    if (hits.length > 0) {
-      console.log(`  ...${todos.length} processo(s) obtidos até agora`);
-    }
     if (hits.length < TAMANHO_PAGINA) break;
     from += TAMANHO_PAGINA;
+    await aguardar(500);
+  }
+  return todos;
+}
+
+// Busca TODOS os processos do período, mês a mês.
+async function buscarIntervalo(deISO, ateISO, comarca) {
+  let todos = [];
+  for (const [ini, fim] of dividirEmMeses(deISO, ateISO)) {
+    const hits = await buscarBloco(ini, fim, comarca);
+    todos = todos.concat(hits);
+    console.log(`  ${ini} a ${fim}: ${hits.length} processo(s) (acumulado: ${todos.length})`);
     await aguardar(500);
   }
   return todos;
@@ -240,7 +303,7 @@ async function buscarIntervalo(deISO, ateISO, comarca) {
 // ---------------------------------------------------------------
 
 async function rodarResync(deISO, ateISO, comarca) {
-  console.log(`\nConsultando TJMG — período de ${deISO} até ${ateISO}${comarca ? ` — comarca: ${comarca}` : ''}...`);
+  console.log(`\nConsultando ${TJ.nome} — período de ${deISO} até ${ateISO}${comarca ? ` — comarca: ${comarca}` : ''}...`);
 
   const hits = await buscarIntervalo(deISO, ateISO, comarca);
   const vistos = carregarHistorico();
@@ -303,6 +366,32 @@ async function rodarResync(deISO, ateISO, comarca) {
 
   salvarHistorico(vistos);
 
+  // Distribuição por classe (código + nome) — serve para conferir se os
+  // códigos configurados são mesmo os esperados (ex.: 108 = Falência).
+  const porClasse = new Map();
+  let maisRecente = null;
+  for (const hit of hits) {
+    const p = hit._source;
+    const chave = `${p.classe && p.classe.codigo} - ${p.classe && p.classe.nome}`;
+    porClasse.set(chave, (porClasse.get(chave) || 0) + 1);
+    if (p.dataAjuizamento && (!maisRecente || p.dataAjuizamento > maisRecente)) maisRecente = p.dataAjuizamento;
+  }
+  console.log('\nDistribuição por classe:');
+  if (porClasse.size === 0) console.log('  (nenhum processo)');
+  for (const [chave, qtd] of [...porClasse.entries()].sort((a, b) => b[1] - a[1])) {
+    console.log(`  ${String(qtd).padStart(5)}  ${chave}`);
+  }
+  if (maisRecente) {
+    const diaRecente = extrairDia(maisRecente);
+    console.log(`Processo mais recente encontrado: distribuído em ${diaRecente}.`);
+    const defasagem = Math.round((new Date(`${ateISO}T00:00:00Z`) - new Date(`${diaRecente}T00:00:00Z`)) / 86400000);
+    if (defasagem > 7) {
+      console.log(`ATENÇÃO: o dado mais recente da base do DataJud tem ${defasagem} dia(s) de defasagem em relação a ${ateISO}. A base pública pode estar desatualizada para este tribunal.`);
+    }
+  } else {
+    console.log('Nenhum processo no período — se isso for inesperado, a base do DataJud pode estar desatualizada.');
+  }
+
   console.log(
     `\nConcluído: ${hits.length} processo(s) no período, ${novosNestaExecucao.length} novo(s) descoberto(s) nesta execução.`
   );
@@ -336,6 +425,47 @@ async function diagnosticar() {
   console.log('\n=== FIM DO DIAGNÓSTICO ===\n');
 }
 
+// Lista, por agregação (consulta leve), quais códigos de classe existem
+// entre os candidatos e como cada um se chama — para validar o 108 etc.
+async function listarClasses() {
+  console.log(`\n=== CLASSES CANDIDATAS (${TJ.nome}) ===\n`);
+  const candidatos = [108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 128, 129, 130, 131];
+  const json = await requisitar({
+    size: 0,
+    query: { terms: { 'classe.codigo': candidatos } },
+    aggs: { classes: { terms: { field: 'classe.codigo', size: 50 }, aggs: { exemplo: { top_hits: { size: 1, _source: ['classe'] } } } } },
+  });
+  const buckets = (json.aggregations && json.aggregations.classes && json.aggregations.classes.buckets) || [];
+  if (buckets.length === 0) console.log('  (nada retornado)');
+  for (const bk of buckets) {
+    const h = bk.exemplo && bk.exemplo.hits && bk.exemplo.hits.hits && bk.exemplo.hits.hits[0];
+    const nome = h && h._source && h._source.classe && h._source.classe.nome;
+    console.log(`  ${String(bk.doc_count).padStart(8)}  ${bk.key} - ${nome}`);
+  }
+  console.log(`\nCódigos usados atualmente: ${CLASSES_DE_INTERESSE.join(', ')}\n`);
+}
+
+// Mostra os 5 processos MAIS RECENTES das classes de interesse (sem filtro
+// de data) e a data de atualização da base — responde "a base está parada?".
+async function listarUltimos() {
+  console.log(`\n=== 5 PROCESSOS MAIS RECENTES NA BASE (${TJ.nome}) ===\n`);
+  const json = await requisitar({
+    size: 5,
+    sort: [{ dataAjuizamento: { order: 'desc' } }],
+    query: { terms: { 'classe.codigo': CLASSES_DE_INTERESSE } },
+  });
+  const total = json.hits && json.hits.total && json.hits.total.value;
+  console.log(`Total na base (todas as datas, classes ${CLASSES_DE_INTERESSE.join('/')}): ${total}\n`);
+  const hits = (json.hits && json.hits.hits) || [];
+  if (hits.length === 0) console.log('  (nenhum processo)');
+  for (const h of hits) {
+    const p = h._source;
+    console.log(`  ${p.numeroProcesso} | classe ${p.classe && p.classe.codigo} ${p.classe && p.classe.nome}`);
+    console.log(`     distribuído: ${compactoParaISO(p.dataAjuizamento)} | base atualizada em: ${p.dataHoraUltimaAtualizacao}`);
+  }
+  console.log('');
+}
+
 async function buscarPorNumero(numero) {
   console.log(`\n=== BUSCANDO PROCESSO ${numero} ===\n`);
   const numeroLimpo = numero.replace(/\D/g, '');
@@ -354,6 +484,9 @@ async function buscarPorNumero(numero) {
 // ---------------------------------------------------------------
 
 async function main() {
+  const idxTj = process.argv.indexOf('--tribunal');
+  definirTribunal(idxTj !== -1 ? String(process.argv[idxTj + 1] || '').toLowerCase() : 'tjmg');
+
   const idxProcesso = process.argv.indexOf('--processo');
   if (idxProcesso !== -1) {
     await buscarPorNumero(process.argv[idxProcesso + 1]);
@@ -361,6 +494,14 @@ async function main() {
   }
   if (process.argv.includes('--debug')) {
     await diagnosticar();
+    return;
+  }
+  if (process.argv.includes('--classes')) {
+    await listarClasses();
+    return;
+  }
+  if (process.argv.includes('--ultimos')) {
+    await listarUltimos();
     return;
   }
 

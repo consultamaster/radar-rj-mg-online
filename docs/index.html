@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Radar de Distribuições — RJ e Falência · TJMG</title>
+<title>Radar de Distribuições — RJ e Falência</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -66,6 +66,12 @@
     margin: 6px 0 0;
     text-transform: capitalize;
   }
+  .tabs { display: inline-flex; gap: 0; margin: 0 0 12px; border: 1px solid var(--divider); border-radius: 999px; overflow: hidden; }
+  .tab {
+    font-family: inherit; font-size: 12px; letter-spacing: 0.12em; font-weight: 600;
+    padding: 7px 18px; border: none; background: transparent; color: var(--text-muted); cursor: pointer;
+  }
+  .tab.ativo { background: var(--brass); color: #10151F; }
   .selos { display: flex; gap: 12px; }
   .selo {
     width: 78px; height: 78px;
@@ -180,7 +186,8 @@
 <header class="masthead">
   <div class="wrap masthead-inner">
     <div>
-      <p class="eyebrow">Administração Judicial · TJMG</p>
+      <div class="tabs" id="tabs"><button class="tab" data-tj="tjmg">TJMG</button><button class="tab" data-tj="tjsp">TJSP</button></div>
+      <p class="eyebrow" id="eyebrow">Administração Judicial · TJMG</p>
       <h1>Radar de Distribuições</h1>
       <p class="subdate" id="dataFormatada">carregando...</p>
     </div>
@@ -224,7 +231,7 @@
   </main>
 
   <footer>
-    Fonte: API Pública do DataJud (CNJ) · TJMG. Atualizado automaticamente todos os dias às 08h.
+    Fonte: API Pública do DataJud (CNJ) · <span id="rodapeTj">TJMG</span>. Atualizado automaticamente todos os dias.
   </footer>
 </div>
 
@@ -234,6 +241,18 @@ const CLASSES = {
   128: { nome: "Recuperação Extrajudicial", cor: "#7C93B0" },
   108: { nome: "Falência", cor: "#B0524F" },
 };
+
+// Cada tribunal tem a sua pasta de dados. O TJMG mantém a pasta original.
+const TRIBUNAIS = {
+  tjmg: { nome: 'TJMG', pasta: 'data' },
+  tjsp: { nome: 'TJSP', pasta: 'data/tjsp' },
+};
+let tribunalAtual = 'tjmg';
+try {
+  const q = new URLSearchParams(location.search).get('tj') || localStorage.getItem('radar-tj');
+  if (q && TRIBUNAIS[q.toLowerCase()]) tribunalAtual = q.toLowerCase();
+} catch (e) {}
+const pasta = () => TRIBUNAIS[tribunalAtual].pasta;
 
 let processosDoIntervalo = [];
 let classesAtivas = new Set(Object.keys(CLASSES).map(Number));
@@ -284,8 +303,8 @@ function renderizarCard(p) {
 
 async function carregarNovosUltimaConsulta() {
   try {
-    const resp = await fetch('data/novos-ultima-consulta.json');
-    if (!resp.ok) return;
+    const resp = await fetch(`${pasta()}/novos-ultima-consulta.json?t=${Date.now()}`);
+    if (!resp.ok) { document.getElementById('painelNovos').style.display = 'none'; return; }
     const dados = await resp.json();
     const painel = document.getElementById('painelNovos');
     if (!dados.total || dados.total === 0) {
@@ -315,7 +334,7 @@ async function carregarIntervalo(de, ate) {
   const resultados = await Promise.all(
     dias.map(async (dia) => {
       try {
-        const resp = await fetch(`data/${dia}.json`);
+        const resp = await fetch(`${pasta()}/${dia}.json`);
         return resp.ok ? await resp.json() : [];
       } catch (e) {
         return [];
@@ -406,6 +425,27 @@ document.getElementById('dataAte').addEventListener('change', dispararIntervalo)
 document.getElementById('seletorComarca').addEventListener('change', render);
 document.getElementById('busca').addEventListener('input', render);
 
+function aplicarTribunal() {
+  const t = TRIBUNAIS[tribunalAtual];
+  document.getElementById('eyebrow').textContent = `Administração Judicial · ${t.nome}`;
+  document.getElementById('rodapeTj').textContent = t.nome;
+  document.title = `Radar de Distribuições — RJ e Falência · ${t.nome}`;
+  document.querySelectorAll('#tabs .tab').forEach((b) => b.classList.toggle('ativo', b.dataset.tj === tribunalAtual));
+  document.getElementById('seletorComarca').value = 'Todas';
+}
+
+document.querySelectorAll('#tabs .tab').forEach((b) => {
+  b.addEventListener('click', () => {
+    if (b.dataset.tj === tribunalAtual) return;
+    tribunalAtual = b.dataset.tj;
+    try { localStorage.setItem('radar-tj', tribunalAtual); } catch (e) {}
+    aplicarTribunal();
+    carregarNovosUltimaConsulta();
+    dispararIntervalo();
+  });
+});
+
+aplicarTribunal();
 montarPillsClasse();
 carregarNovosUltimaConsulta();
 
