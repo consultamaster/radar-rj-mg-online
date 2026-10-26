@@ -1,0 +1,35 @@
+[
+  {
+    "numeroProcesso": "41225069020268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-07T11:05:12",
+    "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "40004999520268260359",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-07T12:11:16",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 2ª,5ªe 8ª RAJs",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10117577320268260224",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-07T16:21:52",
+    "orgaoJulgador": "07 CIVEL DE GUARULHOS",
+    "assuntos": [
+      "Autofalência"
+    ],
+    "novo": true
+  }
+]

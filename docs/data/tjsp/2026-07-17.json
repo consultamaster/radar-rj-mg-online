@@ -1,0 +1,24 @@
+[
+  {
+    "numeroProcesso": "10116758120268260114",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-07-17T14:08:41",
+    "orgaoJulgador": "11 CIVEL DE CAMPINAS",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "41307293220268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-17T17:02:16",
+    "orgaoJulgador": "Juízo Titular I - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Liquidação"
+    ],
+    "novo": true
+  }
+]

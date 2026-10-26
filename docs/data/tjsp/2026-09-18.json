@@ -1,0 +1,46 @@
+[
+  {
+    "numeroProcesso": "10004081620268260146",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-09-18T15:00:54",
+    "orgaoJulgador": "VARA UNICA DE CORDEIROPOLIS",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10004099820268260146",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-09-18T15:09:19",
+    "orgaoJulgador": "VARA UNICA DE CORDEIROPOLIS",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10044819120268260320",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-09-18T15:16:23",
+    "orgaoJulgador": "5º VARA CIVEL DE LIMEIRA",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10044827620268260320",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-09-18T15:21:53",
+    "orgaoJulgador": "5º VARA CIVEL DE LIMEIRA",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": true
+  }
+]

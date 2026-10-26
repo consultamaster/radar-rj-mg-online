@@ -1,0 +1,57 @@
+[
+  {
+    "numeroProcesso": "40000673420268260373",
+    "classeId": 128,
+    "classe": "Recuperação Extrajudicial",
+    "dataAjuizamento": "2026-03-05T09:19:59",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
+    "assuntos": [
+      "Recuperação extrajudicial"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "40340688820268260100",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-03-05T11:42:00",
+    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "40000690420268260373",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-05T16:08:28",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10021411620268260405",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-05T16:34:12",
+    "orgaoJulgador": "3º VARA DE FALÊNCIA E RECUPERAÇÕES JUDICIAIS",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  },
+  {
+    "numeroProcesso": "10002104220268260416",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-03-05T18:09:22",
+    "orgaoJulgador": "VARA REGIONAL EMPRESARIAL E DE CONFLITOS DE ARBITRAGEM - 2ª RAJ/ 5ª RAJ/ 8ª RAJ",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": true
+  }
+]
