@@ -22,6 +22,28 @@
     "novo": false
   },
   {
+    "numeroProcesso": "40051108220268260071",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-19T13:08:36",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
+    "assuntos": [
+      "Autofalência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40004125720268260354",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-19T16:55:31",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
+    "assuntos": [
+      "Contratos Bancários"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40441273820268260100",
     "classeId": 128,
     "classe": "Recuperação Extrajudicial",

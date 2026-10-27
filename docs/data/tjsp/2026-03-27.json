@@ -22,6 +22,17 @@
     "novo": false
   },
   {
+    "numeroProcesso": "40004454720268260354",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-27T15:11:23",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40503259120268260100",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -51,6 +62,17 @@
     "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
     "assuntos": [
       "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40506818620268260100",
+    "classeId": 128,
+    "classe": "Recuperação Extrajudicial",
+    "dataAjuizamento": "2026-03-27T20:35:16",
+    "orgaoJulgador": "Juízo Titular I - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação extrajudicial"
     ],
     "novo": false
   }

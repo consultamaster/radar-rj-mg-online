@@ -1,5 +1,16 @@
 [
   {
+    "numeroProcesso": "10025794220268260114",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-02-24T09:31:09",
+    "orgaoJulgador": "07 CIVEL DE CAMPINAS",
+    "assuntos": [
+      "Administração judicial"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40003034320268260354",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",

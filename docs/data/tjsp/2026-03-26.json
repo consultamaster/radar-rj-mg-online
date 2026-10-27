@@ -1,5 +1,16 @@
 [
   {
+    "numeroProcesso": "10003147220268260177",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-03-26T10:37:17",
+    "orgaoJulgador": "Juízo Titular I - Vara Única da Comarca de Embu-Guaçu",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40004402520268260354",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",

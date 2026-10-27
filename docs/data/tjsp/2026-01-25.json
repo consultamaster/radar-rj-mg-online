@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "40001007220268260260",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-01-25T18:35:35",
+    "orgaoJulgador": "Juízo Titular I - 2ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
+    "assuntos": [
+      "Transformação"
+    ],
+    "novo": false
+  }
+]

@@ -19,7 +19,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40010854120268260260",
@@ -30,7 +30,7 @@
     "assuntos": [
       "Depósito Elisivo"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40967663320268260100",
@@ -41,7 +41,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40010897820268260260",
@@ -52,7 +52,7 @@
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
-    "novo": true
+    "novo": false
   },
   {
     "numeroProcesso": "40969031520268260100",
@@ -63,6 +63,6 @@
     "assuntos": [
       "Autofalência"
     ],
-    "novo": true
+    "novo": false
   }
 ]

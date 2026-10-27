@@ -11,6 +11,17 @@
     "novo": false
   },
   {
+    "numeroProcesso": "40188926920268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-02-09T10:44:35",
+    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40045994020268260506",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -40,6 +51,17 @@
     "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
     "assuntos": [
       "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10014498320268260577",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-02-09T16:14:31",
+    "orgaoJulgador": "05 CIVEL DE SAO JOSE DOS CAMPOS",
+    "assuntos": [
+      "Concurso de Credores"
     ],
     "novo": false
   },

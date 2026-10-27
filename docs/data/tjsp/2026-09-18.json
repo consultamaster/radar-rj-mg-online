@@ -31,5 +31,16 @@
       "Classificação de créditos"
     ],
     "novo": false
+  },
+  {
+    "numeroProcesso": "10044827620268260320",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-09-18T15:21:53",
+    "orgaoJulgador": "5º VARA CIVEL DE LIMEIRA",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": false
   }
 ]

@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10028311120268130210",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-31T15:35:00",
+    "orgaoJulgador": "1ª Vara Cível, Criminal e da Infância e da Juventude da Comarca de Pedro Leopoldo",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
+  }
+]

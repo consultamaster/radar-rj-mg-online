@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10154434520268130027",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-20T16:59:45",
+    "orgaoJulgador": "Vara Empresarial, da Faz. Púb. e Aut., Reg. Púb e Acidentes do Trab. da Comarca de Betim",
+    "assuntos": [
+      "Autofalência"
+    ],
+    "novo": true
+  }
+]

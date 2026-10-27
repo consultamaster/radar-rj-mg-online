@@ -20,5 +20,16 @@
       "Concurso de Credores"
     ],
     "novo": false
+  },
+  {
+    "numeroProcesso": "40066273520268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-01-19T18:54:07",
+    "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": false
   }
 ]
