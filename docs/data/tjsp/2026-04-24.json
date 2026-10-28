@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "numeroProcesso": "40005546120268260354",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-04-24T16:09:51",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40002686820268260359",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-04-24T19:38:57",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 2ª,5ªe 8ª RAJs",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40697622120268260100",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-04-24T21:36:05",
+    "orgaoJulgador": "Juízo Titular I - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10008895920268260281",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-04-24T22:14:06",
+    "orgaoJulgador": "01 VARA REGIONAL EMPRESARIAL E DE CONFLITOS DE ARBITRAGEM - 4ª RAJ/ 10ª RAJ",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": false
+  }
+]

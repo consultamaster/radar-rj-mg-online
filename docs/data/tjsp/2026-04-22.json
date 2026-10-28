@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "40021340220268260266",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-04-22T21:00:18",
+    "orgaoJulgador": "Juízo Titular I - 1ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
+    "assuntos": [
+      "Autofalência"
+    ],
+    "novo": false
+  }
+]

@@ -45,6 +45,17 @@
     "novo": false
   },
   {
+    "numeroProcesso": "40380553520268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-11T13:49:38",
+    "orgaoJulgador": "Juízo Auxiliar - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Indenização por Dano Material"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40003727520268260354",
     "classeId": 129,
     "classe": "Recuperação Judicial",

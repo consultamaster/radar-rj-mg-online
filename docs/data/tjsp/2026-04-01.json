@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "numeroProcesso": "40541418120268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-04-01T09:41:17",
+    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência",
+      "Classificação de créditos"
+    ],
+    "novo": false
+  }
+]

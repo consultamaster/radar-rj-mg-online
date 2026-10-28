@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "40007502220268260260",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-04-20T16:05:46",
+    "orgaoJulgador": "Juízo Titular I - 2ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": false
+  }
+]
