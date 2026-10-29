@@ -1,16 +1,5 @@
 [
   {
-    "numeroProcesso": "10004081620268260146",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-09-18T15:00:54",
-    "orgaoJulgador": "VARA UNICA DE CORDEIROPOLIS",
-    "assuntos": [
-      "Classificação de créditos"
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "10004099820268260146",
     "classeId": 129,
     "classe": "Recuperação Judicial",

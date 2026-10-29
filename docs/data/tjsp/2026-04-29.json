@@ -32,5 +32,27 @@
       "Recuperação judicial e Falência"
     ],
     "novo": false
+  },
+  {
+    "numeroProcesso": "40730870420268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-04-29T20:30:24",
+    "orgaoJulgador": "Juízo Auxiliar - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40731754220268260100",
+    "classeId": 128,
+    "classe": "Recuperação Extrajudicial",
+    "dataAjuizamento": "2026-04-29T23:36:19",
+    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação extrajudicial"
+    ],
+    "novo": false
   }
 ]

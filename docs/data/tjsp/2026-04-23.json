@@ -33,6 +33,17 @@
     "novo": false
   },
   {
+    "numeroProcesso": "40007636720268260471",
+    "classeId": 128,
+    "classe": "Recuperação Extrajudicial",
+    "dataAjuizamento": "2026-04-23T19:28:12",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
+    "assuntos": [
+      "Recuperação extrajudicial"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40687758220268260100",
     "classeId": 129,
     "classe": "Recuperação Judicial",

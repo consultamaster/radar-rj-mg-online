@@ -22,6 +22,17 @@
     "novo": false
   },
   {
+    "numeroProcesso": "10022541120268260068",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-04-16T18:20:37",
+    "orgaoJulgador": "03 CIVEL DE BARUERI",
+    "assuntos": [
+      "Limitada"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "10045442420268260577",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",

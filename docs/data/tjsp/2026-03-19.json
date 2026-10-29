@@ -1,27 +1,5 @@
 [
   {
-    "numeroProcesso": "40004981920268260260",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-03-19T11:38:40",
-    "orgaoJulgador": "Juízo Titular I - 1ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
-    "assuntos": [
-      "Convolação de recuperação judicial em falência"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40436008620268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-03-19T13:01:50",
-    "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "40051108220268260071",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -40,19 +18,6 @@
     "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
     "assuntos": [
       "Contratos Bancários"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40441273820268260100",
-    "classeId": 128,
-    "classe": "Recuperação Extrajudicial",
-    "dataAjuizamento": "2026-03-19T17:49:43",
-    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação judicial e Falência",
-      "Tutela de Urgência",
-      "Recuperação extrajudicial"
     ],
     "novo": false
   }
