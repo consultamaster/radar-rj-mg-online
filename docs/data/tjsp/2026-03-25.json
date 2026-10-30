@@ -1,5 +1,40 @@
 [
   {
+    "numeroProcesso": "40005346120268260260",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-03-25T00:11:51",
+    "orgaoJulgador": "Juízo Titular I - 2ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
+    "assuntos": [
+      "Recuperação judicial e Falência",
+      "Concurso de Credores"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10009900820268260278",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-25T09:43:33",
+    "orgaoJulgador": "03 CIVEL DE ITAQUAQUECETUBA",
+    "assuntos": [
+      "Concurso de Credores",
+      "Liquidação"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40001010920268260373",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-03-25T09:52:01",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40048084820268260008",
     "classeId": 129,
     "classe": "Recuperação Judicial",
@@ -7,6 +42,17 @@
     "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
     "assuntos": [
       "Recuperação extrajudicial"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10007354820268260408",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-03-25T14:11:53",
+    "orgaoJulgador": "01 CIVEL DE OURINHOS",
+    "assuntos": [
+      "Concurso de Credores"
     ],
     "novo": false
   }

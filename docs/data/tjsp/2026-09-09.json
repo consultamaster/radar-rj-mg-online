@@ -1,5 +1,16 @@
 [
   {
+    "numeroProcesso": "10141160720268260576",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-09-09T10:14:25",
+    "orgaoJulgador": "04 CIVEL DE SAO JOSE DO RIO PRETO",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "10141178920268260576",
     "classeId": 129,
     "classe": "Recuperação Judicial",

@@ -11,11 +11,33 @@
     "novo": false
   },
   {
+    "numeroProcesso": "41026816320268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-10T19:15:07",
+    "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "41027231520268260100",
     "classeId": 129,
     "classe": "Recuperação Judicial",
     "dataAjuizamento": "2026-06-10T20:32:30",
     "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40008066420268260354",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-06-10T21:02:44",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
     "assuntos": [
       "Recuperação judicial e Falência"
     ],

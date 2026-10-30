@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10044779020268260114",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-03-23T18:12:16",
+    "orgaoJulgador": "05 CIVEL DE CAMPINAS",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  }
+]
