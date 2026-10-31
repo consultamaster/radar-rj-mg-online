@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10138998920268260114",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-08-19T14:16:03",
+    "orgaoJulgador": "12 CIVEL DE CAMPINAS",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": false
+  }
+]
