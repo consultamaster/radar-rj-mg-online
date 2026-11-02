@@ -1,5 +1,16 @@
 [
   {
+    "numeroProcesso": "41204152720268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-03T11:24:43",
+    "orgaoJulgador": "Juízo Titular II - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Administração judicial"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "41205495420268260100",
     "classeId": 129,
     "classe": "Recuperação Judicial",
