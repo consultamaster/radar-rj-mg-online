@@ -1,76 +1,10 @@
 [
   {
-    "numeroProcesso": "40805491220268260100",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-05-12T09:32:21",
-    "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Concurso de Credores"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40805838420268260100",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-05-12T10:03:41",
-    "orgaoJulgador": "Juízo Titular I - 1ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "40006602320268260354",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
     "dataAjuizamento": "2026-05-12T10:41:35",
     "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40808046720268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-12T12:23:30",
-    "orgaoJulgador": "Juízo Titular II - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40810272020268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-12T14:54:11",
-    "orgaoJulgador": "Juízo Titular I - 1ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40009190920268260260",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-05-12T15:35:17",
-    "orgaoJulgador": "Juízo Titular I - 1ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40811554020268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-12T15:56:21",
-    "orgaoJulgador": "Juízo Titular II - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
@@ -86,39 +20,6 @@
       "Concurso de Credores",
       "Liquidação",
       "Requisitos"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40006689720268260354",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-12T16:28:09",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40814126520268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-12T18:45:05",
-    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40815390320268260100",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-05-12T23:41:24",
-    "orgaoJulgador": "Juízo Auxiliar - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Convolação de recuperação judicial em falência"
     ],
     "novo": false
   },

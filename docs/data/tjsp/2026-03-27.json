@@ -64,16 +64,5 @@
       "Recuperação judicial e Falência"
     ],
     "novo": false
-  },
-  {
-    "numeroProcesso": "40506818620268260100",
-    "classeId": 128,
-    "classe": "Recuperação Extrajudicial",
-    "dataAjuizamento": "2026-03-27T20:35:16",
-    "orgaoJulgador": "Juízo Titular I - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação extrajudicial"
-    ],
-    "novo": false
   }
 ]

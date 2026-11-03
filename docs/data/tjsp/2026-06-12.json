@@ -22,29 +22,6 @@
     "novo": false
   },
   {
-    "numeroProcesso": "40011815620268260260",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-06-12T12:32:02",
-    "orgaoJulgador": "Juízo Auxiliar - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40008230320268260354",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-06-12T14:32:44",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
-    "assuntos": [
-      "Recuperação judicial e Falência",
-      "Falência "
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "41043141220268260100",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -61,28 +38,6 @@
     "classe": "Recuperação Judicial",
     "dataAjuizamento": "2026-06-12T16:14:59",
     "orgaoJulgador": "Juízo Titular I - 1ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "41047090420268260100",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-06-12T18:02:11",
-    "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Concurso de Credores"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40004622620268260373",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-06-12T19:00:50",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
     "assuntos": [
       "Recuperação judicial e Falência"
     ],

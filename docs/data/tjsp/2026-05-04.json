@@ -20,16 +20,5 @@
       "Classificação de créditos"
     ],
     "novo": false
-  },
-  {
-    "numeroProcesso": "10020309320268260320",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-05-04T23:51:52",
-    "orgaoJulgador": "03 CIVEL DE LIMEIRA",
-    "assuntos": [
-      "Classificação de créditos"
-    ],
-    "novo": false
   }
 ]

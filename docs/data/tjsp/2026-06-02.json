@@ -22,39 +22,6 @@
     "novo": false
   },
   {
-    "numeroProcesso": "40972617720268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-06-02T13:32:21",
-    "orgaoJulgador": "Juízo Titular II - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Concurso de Credores"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40977147220268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-06-02T17:26:08",
-    "orgaoJulgador": "Juízo Auxiliar - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40978211920268260100",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-06-02T19:00:52",
-    "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "40978429220268260100",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
