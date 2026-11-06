@@ -20,5 +20,16 @@
       "Recuperação judicial e Falência"
     ],
     "novo": false
+  },
+  {
+    "numeroProcesso": "10093982420268130480",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-18T14:15:40",
+    "orgaoJulgador": "4ª Vara Cível da Comarca de Patos de Minas",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
   }
 ]

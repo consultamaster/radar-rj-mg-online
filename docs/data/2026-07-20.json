@@ -9,5 +9,16 @@
       "Autofalência"
     ],
     "novo": false
+  },
+  {
+    "numeroProcesso": "10375093120268130702",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-07-20T20:25:34",
+    "orgaoJulgador": "7ª Vara Cível da Comarca de Uberlândia",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": true
   }
 ]

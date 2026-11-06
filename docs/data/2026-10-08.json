@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10042471820268130241",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-10-08T13:00:02",
+    "orgaoJulgador": "1ª Vara Cível, Criminal e de Execuções Penais da Comarca de Esmeraldas",
+    "assuntos": [
+      "Indenização por Dano Material"
+    ],
+    "novo": true
+  }
+]

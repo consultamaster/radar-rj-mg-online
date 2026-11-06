@@ -1,5 +1,17 @@
 [
   {
+    "numeroProcesso": "10040531020268130470",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-09-15T16:34:15",
+    "orgaoJulgador": "2ª Vara Cível da Comarca de Paracatu",
+    "assuntos": [
+      "Recuperação judicial e Falência",
+      "Franquia"
+    ],
+    "novo": true
+  },
+  {
     "numeroProcesso": "10106436820268130707",
     "classeId": 129,
     "classe": "Recuperação Judicial",

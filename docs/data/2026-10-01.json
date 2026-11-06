@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "numeroProcesso": "11869412420268130024",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-10-01T16:55:46",
+    "orgaoJulgador": "2ª Vara Empresarial da Comarca de Belo Horizonte",
+    "assuntos": [
+      "Recuperação judicial e Falência",
+      "Desconsideração da Personalidade Jurídica"
+    ],
+    "novo": true
+  }
+]

@@ -42,16 +42,5 @@
       "Classificação de créditos"
     ],
     "novo": false
-  },
-  {
-    "numeroProcesso": "40004553420268260373",
-    "classeId": 128,
-    "classe": "Recuperação Extrajudicial",
-    "dataAjuizamento": "2026-06-09T23:34:02",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
-    "assuntos": [
-      "Recuperação extrajudicial"
-    ],
-    "novo": false
   }
 ]

@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "40367727420268260100",
+    "classeId": 128,
+    "classe": "Recuperação Extrajudicial",
+    "dataAjuizamento": "2026-03-10T01:54:20",
+    "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação extrajudicial"
+    ],
+    "novo": false
+  }
+]
