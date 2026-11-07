@@ -11,6 +11,18 @@
     "novo": false
   },
   {
+    "numeroProcesso": "40981087920268260100",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-06-03T11:29:30",
+    "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Liquidação",
+      "Preferências e Privilégios Creditórios"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40987618120268260100",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",

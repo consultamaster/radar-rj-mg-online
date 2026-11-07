@@ -1,12 +1,13 @@
 [
   {
-    "numeroProcesso": "00000025820268260260",
+    "numeroProcesso": "40000423920268260270",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-01-09T08:52:24",
-    "orgaoJulgador": "01 VARA REGIONAL EMPRESARIAL E DE CONFLITOS RELACIONADOS À ARBITRAGEM -  - 1ª RAJ/ 7ª RAJ/ 9ª RAJ",
+    "dataAjuizamento": "2026-01-09T14:58:13",
+    "orgaoJulgador": "Juízo Titular I - CEJUSC  da Comarca de Campinas",
     "assuntos": [
-      "Obrigação de Fazer / Não Fazer"
+      "Recuperação judicial e Falência",
+      "Pagamento"
     ],
     "novo": false
   }

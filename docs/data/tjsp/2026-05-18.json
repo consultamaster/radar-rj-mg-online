@@ -1,17 +1,5 @@
 [
   {
-    "numeroProcesso": "40206305020268260114",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-18T09:16:22",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
-    "assuntos": [
-      "Recuperação judicial e Falência",
-      "Depósito Elisivo"
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "40087263020268260309",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
@@ -52,17 +40,6 @@
     "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
     "assuntos": [
       "Recuperação judicial e Falência",
-      "Concurso de Credores"
-    ],
-    "novo": false
-  },
-  {
-    "numeroProcesso": "40003267120268260359",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-05-18T20:02:57",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 2ª,5ªe 8ª RAJs",
-    "assuntos": [
       "Concurso de Credores"
     ],
     "novo": false

@@ -53,5 +53,16 @@
       "Recuperação judicial e Falência"
     ],
     "novo": false
+  },
+  {
+    "numeroProcesso": "41037442620268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-11T19:50:57",
+    "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Indenização por Dano Moral"
+    ],
+    "novo": false
   }
 ]
