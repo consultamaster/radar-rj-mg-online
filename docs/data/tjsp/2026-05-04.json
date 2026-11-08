@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "numeroProcesso": "40008394520268260260",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-05-04T10:55:34",
+    "orgaoJulgador": "Juízo Titular I - 1ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
+    "assuntos": [
+      "Depósito Elisivo"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40753458420268260100",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-05-04T16:47:36",
+    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10020309320268260320",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-05-04T23:51:52",
+    "orgaoJulgador": "03 CIVEL DE LIMEIRA",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": false
+  }
+]

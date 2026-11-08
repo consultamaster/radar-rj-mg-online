@@ -1,10 +1,43 @@
 [
   {
+    "numeroProcesso": "00001660920268260394",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-02-13T09:53:32",
+    "orgaoJulgador": "01 VARA REGIONAL EMPRESARIAL E DE CONFLITOS DE ARBITRAGEM - 4ª RAJ/ 10ª RAJ",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "10020008520268260602",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
     "dataAjuizamento": "2026-02-13T10:22:31",
     "orgaoJulgador": "01 VARA REGIONAL EMPRESARIAL E DE CONFLITOS DE ARBITRAGEM - 4ª RAJ/ 10ª RAJ",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40002566920268260354",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-02-13T14:44:05",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "10006575220268260344",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-02-13T15:42:05",
+    "orgaoJulgador": "05 CIVEL DE MARILIA",
     "assuntos": [
       "Recuperação judicial e Falência"
     ],

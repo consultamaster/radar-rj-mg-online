@@ -33,11 +33,33 @@
     "novo": false
   },
   {
+    "numeroProcesso": "40883792920268260100",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-05-21T15:28:23",
+    "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40884408420268260100",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
     "dataAjuizamento": "2026-05-21T16:01:27",
     "orgaoJulgador": "Juízo Titular II - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40003518420268260359",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-05-21T17:59:36",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 2ª,5ªe 8ª RAJs",
     "assuntos": [
       "Recuperação judicial e Falência"
     ],
