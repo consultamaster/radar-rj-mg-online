@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "40002552720268260373",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-04-25T11:38:34",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
+    "assuntos": [
+      "Concurso de Credores"
+    ],
+    "novo": false
+  }
+]

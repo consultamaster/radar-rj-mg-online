@@ -13,6 +13,17 @@
     "novo": false
   },
   {
+    "numeroProcesso": "40214943320268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-02-12T13:33:46",
+    "orgaoJulgador": "Juízo Titular I - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Depósito Elisivo"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40002314720268260260",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",

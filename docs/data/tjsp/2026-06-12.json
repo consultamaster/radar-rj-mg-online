@@ -1,5 +1,16 @@
 [
   {
+    "numeroProcesso": "40004605620268260373",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-12T10:43:43",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
+    "assuntos": [
+      "Nota Promissória"
+    ],
+    "novo": false
+  },
+  {
     "numeroProcesso": "40249720720268260114",
     "classeId": 128,
     "classe": "Recuperação Extrajudicial",
@@ -30,6 +41,17 @@
     "assuntos": [
       "Recuperação judicial e Falência",
       "Falência "
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "41043141220268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-06-12T14:41:31",
+    "orgaoJulgador": "Juízo Titular II - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Recuperação judicial e Falência"
     ],
     "novo": false
   },

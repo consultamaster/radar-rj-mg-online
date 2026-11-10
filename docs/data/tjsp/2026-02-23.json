@@ -1,16 +1,5 @@
 [
   {
-    "numeroProcesso": "10001591920268260129",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-02-23T12:11:37",
-    "orgaoJulgador": "02 CUMULATIVA DE CASA BRANCA",
-    "assuntos": [
-      "Recuperação judicial e Falência"
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "40055216520268260576",
     "classeId": 129,
     "classe": "Recuperação Judicial",
@@ -29,6 +18,28 @@
     "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 2ª,5ªe 8ª RAJs",
     "assuntos": [
       "Administração judicial"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40267739720268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-02-23T16:55:49",
+    "orgaoJulgador": "Juízo Titular I - 1ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Classificação de créditos"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40000535020268260373",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-02-23T17:10:42",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
+    "assuntos": [
+      "Recuperação judicial e Falência"
     ],
     "novo": false
   }

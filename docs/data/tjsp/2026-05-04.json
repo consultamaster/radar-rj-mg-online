@@ -1,16 +1,5 @@
 [
   {
-    "numeroProcesso": "40008394520268260260",
-    "classeId": 108,
-    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-04T10:55:34",
-    "orgaoJulgador": "Juízo Titular I - 1ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
-    "assuntos": [
-      "Depósito Elisivo"
-    ],
-    "novo": false
-  },
-  {
     "numeroProcesso": "10020309320268260320",
     "classeId": 129,
     "classe": "Recuperação Judicial",
