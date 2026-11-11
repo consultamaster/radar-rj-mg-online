@@ -1,12 +1,12 @@
 [
   {
-    "numeroProcesso": "40003968820268260359",
-    "classeId": 129,
-    "classe": "Recuperação Judicial",
-    "dataAjuizamento": "2026-05-29T11:00:17",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 2ª,5ªe 8ª RAJs",
+    "numeroProcesso": "40205013320268260506",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-05-29T17:48:22",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
     "assuntos": [
-      "Concurso de Credores"
+      "Autofalência"
     ],
     "novo": false
   },

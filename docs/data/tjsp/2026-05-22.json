@@ -1,12 +1,23 @@
 [
   {
-    "numeroProcesso": "40896126120268260100",
+    "numeroProcesso": "40889084820268260100",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-05-22T17:00:19",
-    "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "dataAjuizamento": "2026-05-22T09:31:12",
+    "orgaoJulgador": "Juízo Titular I - 2ªVara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 1ª,7ªe 9ª RAJs",
     "assuntos": [
-      "Inadimplemento"
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  },
+  {
+    "numeroProcesso": "40004293620268260373",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-05-22T15:30:06",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 3ªe 6ª RAJs ",
+    "assuntos": [
+      "Depósito Elisivo"
     ],
     "novo": false
   }

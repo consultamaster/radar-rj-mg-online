@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10000259320268260354",
+    "classeId": 129,
+    "classe": "Recuperação Judicial",
+    "dataAjuizamento": "2026-09-09T16:07:47",
+    "orgaoJulgador": "01 VARA REGIONAL EMPRESARIAL E DE CONFLITOS DE ARBITRAGEM - 4ª RAJ/ 10ª RAJ",
+    "assuntos": [
+      "Arrendamento Mercantil"
+    ],
+    "novo": false
+  }
+]
