@@ -9,5 +9,16 @@
       "Nota Promissória"
     ],
     "novo": false
+  },
+  {
+    "numeroProcesso": "40016326220268260428",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-04-06T18:02:46",
+    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 4ªe10ª RAJs",
+    "assuntos": [
+      "Recuperação extrajudicial"
+    ],
+    "novo": false
   }
 ]
