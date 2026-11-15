@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "10008329020268260394",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-08-14T11:18:40",
+    "orgaoJulgador": "02 CUMULATIVA DE NOVA ODESSA",
+    "assuntos": [
+      "Recuperação judicial e Falência"
+    ],
+    "novo": false
+  }
+]
