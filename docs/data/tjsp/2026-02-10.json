@@ -1,13 +1,12 @@
 [
   {
-    "numeroProcesso": "40000539220268260359",
+    "numeroProcesso": "40199630920268260100",
     "classeId": 108,
     "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
-    "dataAjuizamento": "2026-02-10T15:38:42",
-    "orgaoJulgador": "Juízo Titular I - Vara Reg. Comp. Empresarial e Conflitos à Arbitragem Foro Espec. 2ª,5ªe 8ª RAJs",
+    "dataAjuizamento": "2026-02-10T13:56:22",
+    "orgaoJulgador": "Juízo Titular II - 2ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
     "assuntos": [
-      "Recuperação judicial e Falência",
-      "Tutela de Urgência"
+      "Depósito Elisivo"
     ],
     "novo": false
   }
