@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "numeroProcesso": "40896126120268260100",
+    "classeId": 108,
+    "classe": "Falência de Empresários, Sociedades Empresáriais, Microempresas e Empresas de Pequeno Porte",
+    "dataAjuizamento": "2026-05-22T17:00:19",
+    "orgaoJulgador": "Juízo Titular I - 3ª Vara de Falências e Recuperações Judiciais - Foro Central Cível",
+    "assuntos": [
+      "Inadimplemento"
+    ],
+    "novo": false
+  }
+]
